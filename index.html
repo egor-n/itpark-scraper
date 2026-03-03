@@ -604,7 +604,9 @@
         cellRenderer: renderActivities,
         sortable: false,
         filter: false,
-        resizable: true
+        resizable: true,
+        cellStyle: { overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' },
+        tooltipValueGetter: params => params.value && params.value.length ? params.value.join(', ') : ''
       },
       {
         headerName: 'Phone',
