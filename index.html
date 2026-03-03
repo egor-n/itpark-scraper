@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moldova IT Park — Residents Registry</title>
+  <script src="https://cdn.jsdelivr.net/npm/ag-grid-community@33/dist/ag-grid-community.min.js"></script>
+  <style>
+    /* ── Reset & Base ─────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --brand-blue:    #1a56db;
+      --brand-blue-dk: #1240a8;
+      --bg-page:       #f3f4f8;
+      --bg-header:     #0f1b3c;
+      --bg-card:       #ffffff;
+      --text-primary:  #111827;
+      --text-muted:    #6b7280;
+      --text-inverse:  #ffffff;
+      --border:        #e5e7eb;
+      --active-bg:     #d1fae5;
+      --active-text:   #065f46;
+      --inactive-bg:   #f3f4f6;
+      --inactive-text: #374151;
+      --badge-bg:      #eff6ff;
+      --badge-text:    #1d4ed8;
+      --radius-pill:   9999px;
+      --radius-sm:     6px;
+      --shadow-sm:     0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
+      --shadow-md:     0 4px 12px rgba(0,0,0,.10);
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    html, body { height: 100%; }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg-page);
+      color: var(--text-primary);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* ── Header ───────────────────────────────────────────── */
+    .site-header {
+      background: var(--bg-header);
+      color: var(--text-inverse);
+      padding: 24px 28px 20px;
+      flex-shrink: 0;
+    }
+
+    .header-top {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 18px;
+    }
+
+    .header-logo {
+      width: 42px;
+      height: 42px;
+      background: var(--brand-blue);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: -1px;
+      flex-shrink: 0;
+    }
+
+    .header-titles h1 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      line-height: 1.3;
+      letter-spacing: -0.01em;
+    }
+
+    .header-titles p {
+      font-size: 0.78rem;
+      color: rgba(255,255,255,.55);
+      margin-top: 2px;
+    }
+
+    .stats-row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .stat-card {
+      background: rgba(255,255,255,.07);
+      border: 1px solid rgba(255,255,255,.10);
+      border-radius: var(--radius-sm);
+      padding: 10px 16px;
+      min-width: 100px;
+    }
+
+    .stat-card .stat-label {
+      font-size: 0.70rem;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      color: rgba(255,255,255,.50);
+      margin-bottom: 4px;
+    }
+
+    .stat-card .stat-value {
+      font-size: 1.35rem;
+      font-weight: 700;
+      line-height: 1;
+      color: #fff;
+    }
+
+    .stat-card.active  .stat-value { color: #6ee7b7; }
+    .stat-card.inactive .stat-value { color: #9ca3af; }
+
+    /* ── Controls bar ─────────────────────────────────────── */
+    .controls-bar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 28px;
+      background: var(--bg-card);
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+      flex-wrap: wrap;
+    }
+
+    .search-wrap {
+      position: relative;
+      flex: 1 1 260px;
+      min-width: 180px;
+      max-width: 480px;
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 11px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      pointer-events: none;
+      line-height: 1;
+    }
+
+    .search-input {
+      width: 100%;
+      height: 38px;
+      padding: 0 12px 0 34px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      font-size: 0.875rem;
+      font-family: var(--font);
+      color: var(--text-primary);
+      background: var(--bg-page);
+      transition: border-color .15s, box-shadow .15s;
+      outline: none;
+    }
+
+    .search-input:focus {
+      border-color: var(--brand-blue);
+      box-shadow: 0 0 0 3px rgba(26,86,219,.18);
+      background: #fff;
+    }
+
+    .search-input::placeholder { color: var(--text-muted); }
+
+    .filter-select {
+      height: 38px;
+      padding: 0 32px 0 12px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      font-size: 0.875rem;
+      font-family: var(--font);
+      color: var(--text-primary);
+      background: var(--bg-page) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236b7280' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat right 10px center;
+      appearance: none;
+      cursor: pointer;
+      outline: none;
+      transition: border-color .15s;
+      flex-shrink: 0;
+    }
+
+    .filter-select:focus {
+      border-color: var(--brand-blue);
+      box-shadow: 0 0 0 3px rgba(26,86,219,.18);
+    }
+
+    .controls-count {
+      font-size: 0.80rem;
+      color: var(--text-muted);
+      white-space: nowrap;
+      margin-left: auto;
+    }
+
+    /* ── Grid wrapper ─────────────────────────────────────── */
+    .grid-wrapper {
+      flex: 1 1 auto;
+      padding: 0 28px 28px;
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+    }
+
+    #myGrid {
+      flex: 1 1 auto;
+      width: 100%;
+      height: 100%;
+      min-height: 400px;
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--border);
+      margin-top: 16px;
+    }
+
+    /* ── AG Grid theme overrides ──────────────────────────── */
+    .ag-theme-alpine {
+      --ag-font-family: var(--font);
+      --ag-font-size: 13px;
+      --ag-header-background-color: #f9fafb;
+      --ag-header-foreground-color: #374151;
+      --ag-header-height: 42px;
+      --ag-row-height: 44px;
+      --ag-border-color: #e5e7eb;
+      --ag-row-border-color: #f0f0f0;
+      --ag-odd-row-background-color: #ffffff;
+      --ag-row-hover-color: #eff6ff;
+      --ag-selected-row-background-color: #dbeafe;
+      --ag-range-selection-border-color: var(--brand-blue);
+      --ag-checkbox-checked-color: var(--brand-blue);
+      --ag-input-focus-border-color: var(--brand-blue);
+      --ag-cell-horizontal-padding: 12px;
+    }
+
+    .ag-theme-alpine .ag-header-cell-label {
+      font-weight: 600;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+
+    .ag-theme-alpine .ag-cell {
+      display: flex;
+      align-items: center;
+    }
+
+    .ag-theme-alpine .ag-pinned-left-cols-container .ag-cell {
+      border-right: 1px solid var(--border) !important;
+    }
+
+    /* ── Cell renderers ───────────────────────────────────── */
+    .badge-active {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: var(--active-bg);
+      color: var(--active-text);
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 9px;
+      border-radius: var(--radius-pill);
+      white-space: nowrap;
+    }
+
+    .badge-active::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #10b981;
+      flex-shrink: 0;
+    }
+
+    .badge-inactive {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: var(--inactive-bg);
+      color: var(--inactive-text);
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 9px;
+      border-radius: var(--radius-pill);
+      white-space: nowrap;
+    }
+
+    .badge-inactive::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #9ca3af;
+      flex-shrink: 0;
+    }
+
+    .nace-chip {
+      display: inline-block;
+      background: var(--badge-bg);
+      color: var(--badge-text);
+      font-size: 10.5px;
+      font-weight: 600;
+      padding: 2px 7px;
+      border-radius: var(--radius-pill);
+      margin: 2px 2px 2px 0;
+      white-space: nowrap;
+      border: 1px solid #bfdbfe;
+    }
+
+    .activities-cell {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0;
+      padding: 4px 0;
+    }
+
+    .cell-link {
+      color: var(--brand-blue);
+      text-decoration: none;
+      font-size: 13px;
+    }
+
+    .cell-link:hover { text-decoration: underline; }
+
+    .company-name-active {
+      font-weight: 500;
+      color: var(--text-primary);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .company-name-inactive {
+      font-weight: 400;
+      color: var(--text-muted);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    /* ── Loading / Error states ───────────────────────────── */
+    .loading-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(255,255,255,.85);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      z-index: 100;
+      backdrop-filter: blur(2px);
+    }
+
+    .spinner {
+      width: 44px;
+      height: 44px;
+      border: 4px solid var(--border);
+      border-top-color: var(--brand-blue);
+      border-radius: 50%;
+      animation: spin .8s linear infinite;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .loading-text {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    /* ── Footer ───────────────────────────────────────────── */
+    .site-footer {
+      text-align: center;
+      padding: 12px 28px;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+      background: var(--bg-card);
+      flex-shrink: 0;
+    }
+
+    /* ── Responsive tweaks ────────────────────────────────── */
+    @media (max-width: 640px) {
+      .site-header  { padding: 18px 16px 14px; }
+      .controls-bar { padding: 12px 16px; }
+      .grid-wrapper { padding: 0 16px 16px; }
+      .header-titles h1 { font-size: 1.05rem; }
+      .stat-card .stat-value { font-size: 1.15rem; }
+      .controls-count { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Loading overlay -->
+  <div class="loading-overlay" id="loadingOverlay">
+    <div class="spinner"></div>
+    <p class="loading-text">Loading registry data…</p>
+  </div>
+
+  <!-- ── Header ──────────────────────────────────────────── -->
+  <header class="site-header">
+    <div class="header-top">
+      <div class="header-logo">IP</div>
+      <div class="header-titles">
+        <h1>Moldova IT Park — Residents Registry</h1>
+        <p>IT Park residents data sourced from itpark.md</p>
+      </div>
+    </div>
+    <div class="stats-row">
+      <div class="stat-card">
+        <div class="stat-label">Total</div>
+        <div class="stat-value" id="statTotal">—</div>
+      </div>
+      <div class="stat-card active">
+        <div class="stat-label">Active</div>
+        <div class="stat-value" id="statActive">—</div>
+      </div>
+      <div class="stat-card inactive">
+        <div class="stat-label">Inactive</div>
+        <div class="stat-value" id="statInactive">—</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── Controls ────────────────────────────────────────── -->
+  <div class="controls-bar">
+    <div class="search-wrap">
+      <span class="search-icon">
+        <svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="8.5" cy="8.5" r="6" stroke="currentColor" stroke-width="1.8"/>
+          <path d="M13 13l4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <input
+        type="search"
+        id="searchInput"
+        class="search-input"
+        placeholder="Search company, administrator, email, phone…"
+        autocomplete="off"
+        spellcheck="false"
+      />
+    </div>
+    <select id="statusFilter" class="filter-select">
+      <option value="All">All statuses</option>
+      <option value="Active">Active</option>
+      <option value="Inactive">Inactive</option>
+    </select>
+    <span class="controls-count" id="rowCount"></span>
+  </div>
+
+  <!-- ── Grid ────────────────────────────────────────────── -->
+  <div class="grid-wrapper">
+    <div id="myGrid" class="ag-theme-alpine"></div>
+  </div>
+
+  <!-- ── Footer ──────────────────────────────────────────── -->
+  <footer class="site-footer">
+    Moldova IT Park Residents Registry &mdash; data from <a href="https://itpark.md" target="_blank" rel="noopener" style="color:var(--brand-blue)">itpark.md</a>
+  </footer>
+
+  <script>
+    /* ── Helpers ─────────────────────────────────────────── */
+    function escHtml(str) {
+      if (!str) return '';
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function fmtDate(val) {
+      if (!val) return '';
+      const parts = val.split('-');
+      if (parts.length !== 3) return val;
+      const [y, m, d] = parts;
+      return `${d}.${m}.${y}`;
+    }
+
+    /* ── Cell renderers ──────────────────────────────────── */
+    function renderCompany(params) {
+      const cls = params.data.isResident === 'Active' ? 'company-name-active' : 'company-name-inactive';
+      return `<span class="${cls}" title="${escHtml(params.value)}">${escHtml(params.value)}</span>`;
+    }
+
+    function renderStatus(params) {
+      if (params.value === 'Active') {
+        return `<span class="badge-active">Active</span>`;
+      }
+      return `<span class="badge-inactive">Inactive</span>`;
+    }
+
+    function renderActivities(params) {
+      if (!params.value || !params.value.length) return '';
+      const chips = params.value
+        .map(code => `<span class="nace-chip">${escHtml(code)}</span>`)
+        .join('');
+      return `<div class="activities-cell">${chips}</div>`;
+    }
+
+    function renderPhone(params) {
+      if (!params.value) return '';
+      const href = 'tel:' + params.value.replace(/\s/g, '');
+      return `<a class="cell-link" href="${escHtml(href)}">${escHtml(params.value)}</a>`;
+    }
+
+    function renderEmail(params) {
+      if (!params.value) return '';
+      return `<a class="cell-link" href="mailto:${escHtml(params.value)}">${escHtml(params.value)}</a>`;
+    }
+
+    function renderDate(params) {
+      return fmtDate(params.value);
+    }
+
+    function renderNumber(params) {
+      return params.value != null ? String(params.value) : '';
+    }
+
+    /* ── Column definitions ──────────────────────────────── */
+    const columnDefs = [
+      {
+        headerName: '#',
+        field: 'residentNumber',
+        width: 70,
+        minWidth: 60,
+        cellRenderer: renderNumber,
+        sortable: true,
+        filter: false,
+        resizable: false,
+        cellStyle: { color: 'var(--text-muted)', fontSize: '12px' }
+      },
+      {
+        headerName: 'Company',
+        field: 'companyName',
+        minWidth: 220,
+        width: 280,
+        pinned: 'left',
+        cellRenderer: renderCompany,
+        sortable: true,
+        filter: false,
+        resizable: true,
+        tooltipField: 'companyName'
+      },
+      {
+        headerName: 'Administrator',
+        field: 'administrator',
+        minWidth: 160,
+        width: 190,
+        sortable: true,
+        filter: false,
+        resizable: true,
+        cellStyle: { overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }
+      },
+      {
+        headerName: 'Headquarters',
+        field: 'legalHeadquarters',
+        minWidth: 200,
+        width: 250,
+        sortable: false,
+        filter: false,
+        resizable: true,
+        cellStyle: {
+          fontSize: '12px',
+          color: 'var(--text-muted)',
+          overflow: 'hidden',
+          textOverflow: 'ellipsis',
+          whiteSpace: 'nowrap'
+        },
+        tooltipField: 'legalHeadquarters'
+      },
+      {
+        headerName: 'Status',
+        field: 'isResident',
+        width: 110,
+        minWidth: 90,
+        cellRenderer: renderStatus,
+        sortable: true,
+        filter: false,
+        resizable: false
+      },
+      {
+        headerName: 'Joined',
+        field: 'joinDate',
+        width: 105,
+        minWidth: 90,
+        cellRenderer: renderDate,
+        sortable: true,
+        filter: false,
+        resizable: false,
+        cellStyle: { fontSize: '12.5px' }
+      },
+      {
+        headerName: 'Reg. Until',
+        field: 'requestedRegistrationPeriod',
+        width: 108,
+        minWidth: 90,
+        cellRenderer: renderDate,
+        sortable: true,
+        filter: false,
+        resizable: false,
+        cellStyle: { fontSize: '12.5px' }
+      },
+      {
+        headerName: 'Recall Date',
+        field: 'recallDate',
+        width: 108,
+        minWidth: 90,
+        cellRenderer: renderDate,
+        sortable: true,
+        filter: false,
+        resizable: false,
+        cellStyle: { fontSize: '12.5px', color: 'var(--text-muted)' }
+      },
+      {
+        headerName: 'Activities',
+        field: 'eligibleActivities',
+        minWidth: 160,
+        width: 220,
+        cellRenderer: renderActivities,
+        sortable: false,
+        filter: false,
+        resizable: true
+      },
+      {
+        headerName: 'Phone',
+        field: 'phone',
+        minWidth: 140,
+        width: 160,
+        cellRenderer: renderPhone,
+        sortable: false,
+        filter: false,
+        resizable: true
+      },
+      {
+        headerName: 'Email',
+        field: 'email',
+        minWidth: 180,
+        width: 220,
+        cellRenderer: renderEmail,
+        sortable: false,
+        filter: false,
+        resizable: true
+      }
+    ];
+
+    /* ── Grid options ────────────────────────────────────── */
+    const gridOptions = {
+      columnDefs,
+      rowData: [],
+      defaultColDef: {
+        sortable: true,
+        resizable: true,
+        filter: false,
+        suppressMovable: false
+      },
+      rowHeight: 44,
+      headerHeight: 42,
+      animateRows: true,
+      suppressCellFocus: true,
+      enableCellTextSelection: true,
+      tooltipShowDelay: 500,
+      onGridReady(params) {
+        // size columns on first render
+        params.api.sizeColumnsToFit();
+      },
+      onFilterChanged() {
+        updateRowCount(gridApi.getDisplayedRowCount());
+      },
+      onSortChanged() {
+        updateRowCount(gridApi.getDisplayedRowCount());
+      }
+    };
+
+    /* ── Init grid ───────────────────────────────────────── */
+    const container = document.getElementById('myGrid');
+    const gridApi = agGrid.createGrid(container, gridOptions);
+
+    /* ── State ───────────────────────────────────────────── */
+    let allData = [];
+    let currentSearch = '';
+    let currentStatus = 'All';
+
+    /* ── Filter logic ────────────────────────────────────── */
+    function applyFilters() {
+      const q = currentSearch.toLowerCase().trim();
+      const filtered = allData.filter(row => {
+        // status filter
+        if (currentStatus !== 'All' && row.isResident !== currentStatus) return false;
+        // text search
+        if (q) {
+          const haystack = [
+            row.companyName,
+            row.administrator,
+            row.email,
+            row.phone
+          ].filter(Boolean).join(' ').toLowerCase();
+          if (!haystack.includes(q)) return false;
+        }
+        return true;
+      });
+      gridApi.setGridOption('rowData', filtered);
+      updateRowCount(filtered.length);
+    }
+
+    function updateRowCount(count) {
+      const el = document.getElementById('rowCount');
+      const n = count != null ? count : allData.length;
+      el.textContent = n.toLocaleString() + ' ' + (n === 1 ? 'company' : 'companies');
+    }
+
+    /* ── Event bindings ──────────────────────────────────── */
+    let searchTimer;
+    document.getElementById('searchInput').addEventListener('input', function () {
+      currentSearch = this.value;
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(applyFilters, 150);
+    });
+
+    document.getElementById('statusFilter').addEventListener('change', function () {
+      currentStatus = this.value;
+      applyFilters();
+    });
+
+    /* ── Responsive resize ───────────────────────────────── */
+    let resizeTimer;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => {
+        gridApi.sizeColumnsToFit();
+      }, 150);
+    });
+
+    /* ── Load data ───────────────────────────────────────── */
+    fetch('./data.json')
+      .then(res => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      })
+      .then(data => {
+        allData = data;
+
+        // compute stats
+        const total    = data.length;
+        const active   = data.filter(r => r.isResident === 'Active').length;
+        const inactive = total - active;
+
+        document.getElementById('statTotal').textContent   = total.toLocaleString();
+        document.getElementById('statActive').textContent  = active.toLocaleString();
+        document.getElementById('statInactive').textContent = inactive.toLocaleString();
+
+        // load into grid
+        gridApi.setGridOption('rowData', data);
+        updateRowCount(total);
+
+        // hide loading overlay
+        document.getElementById('loadingOverlay').style.display = 'none';
+      })
+      .catch(err => {
+        console.error('Failed to load data.json:', err);
+        const overlay = document.getElementById('loadingOverlay');
+        overlay.innerHTML = `
+          <div style="text-align:center;padding:24px;max-width:360px">
+            <div style="font-size:2rem;margin-bottom:12px">⚠️</div>
+            <p style="font-weight:600;margin-bottom:8px;color:#111827">Could not load data</p>
+            <p style="font-size:.85rem;color:#6b7280">Make sure you are serving this page over HTTP (not opened as a local file) so that <code>data.json</code> can be fetched.</p>
+            <p style="font-size:.78rem;color:#9ca3af;margin-top:12px">${escHtml(err.message)}</p>
+          </div>`;
+      });
+  </script>
+</body>
+</html>
