@@ -72,6 +72,9 @@ def main():
     total_elements = first_page["totalElements"]
     total_pages = first_page["totalPages"]
     print(f"API reports {total_elements} total elements across {total_pages} pages")
+    new_count = total_elements - state["total_elements"]
+    if new_count > 0:
+        print(f"{new_count} new companies since last run")
 
     if total_elements <= state["total_elements"] and state["last_page"] >= total_pages - 1:
         print("Nothing new to scrape. Exiting.")
