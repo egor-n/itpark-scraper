@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moldova IT Park — Registration Trends</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #0c0e0f;
+    --surface: #131618;
+    --border: #1e2224;
+    --muted: #3a4045;
+    --text: #e2e6e8;
+    --subtle: #7a8990;
+    --accent: #c8f560;
+    --accent2: #60c8f5;
+    --accent3: #f5a060;
+    --danger: #f56060;
+  }
+
+  html { font-size: 15px; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Mono', monospace;
+    font-weight: 300;
+    line-height: 1.6;
+    min-height: 100vh;
+    padding: 0;
+  }
+
+  /* ── HEADER ───────────────────────────────────────── */
+  header {
+    padding: 3rem 3rem 2rem;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .header-left h1 {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    letter-spacing: -0.03em;
+    line-height: 1.05;
+    color: var(--text);
+  }
+
+  .header-left h1 span {
+    color: var(--accent);
+  }
+
+  .header-sub {
+    margin-top: 0.5rem;
+    color: var(--subtle);
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+  }
+
+  .header-stats {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .stat-pill {
+    text-align: right;
+  }
+
+  .stat-pill .val {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: var(--accent);
+    line-height: 1;
+  }
+
+  .stat-pill .lbl {
+    font-size: 0.7rem;
+    color: var(--subtle);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  /* ── LAYOUT ───────────────────────────────────────── */
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  section {
+    padding: 2.5rem 3rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .section-label {
+    font-size: 0.68rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--subtle);
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  /* ── MONTHLY CHART ────────────────────────────────── */
+  .chart-wrap {
+    position: relative;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .monthly-chart {
+    display: flex;
+    align-items: flex-end;
+    gap: 3px;
+    height: 200px;
+    min-width: 900px;
+    padding-bottom: 28px;
+    position: relative;
+  }
+
+  /* horizontal guide lines */
+  .chart-guides {
+    position: absolute;
+    inset: 0 0 28px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    pointer-events: none;
+  }
+
+  .guide-line {
+    width: 100%;
+    height: 1px;
+    background: var(--border);
+    position: relative;
+  }
+
+  .guide-line span {
+    position: absolute;
+    right: calc(100% + 6px);
+    top: -8px;
+    font-size: 0.6rem;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+
+  .bar-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    gap: 4px;
+    cursor: default;
+    position: relative;
+  }
+
+  .bar {
+    width: 100%;
+    border-radius: 2px 2px 0 0;
+    background: var(--muted);
+    transition: background 0.15s;
+    min-height: 2px;
+    position: relative;
+  }
+
+  .bar-col:hover .bar { background: var(--accent); }
+
+  .bar-col.highlight .bar { background: color-mix(in srgb, var(--accent) 55%, var(--muted)); }
+
+  .bar-label {
+    position: absolute;
+    bottom: 0;
+    font-size: 0.52rem;
+    color: var(--muted);
+    white-space: nowrap;
+    transform: rotate(-60deg) translateX(-4px);
+    transform-origin: top left;
+    letter-spacing: 0.04em;
+  }
+
+  .bar-col:hover .bar-label { color: var(--subtle); }
+
+  .tooltip {
+    display: none;
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--surface);
+    border: 1px solid var(--accent);
+    padding: 4px 8px;
+    font-size: 0.68rem;
+    white-space: nowrap;
+    color: var(--accent);
+    z-index: 10;
+    pointer-events: none;
+  }
+
+  .bar-col:hover .tooltip { display: block; }
+
+  /* year separator */
+  .year-mark {
+    width: 1px;
+    height: 100%;
+    background: var(--border);
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .year-mark span {
+    position: absolute;
+    bottom: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.6rem;
+    color: var(--subtle);
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+  }
+
+  /* ── TWO-COL BOTTOM CHARTS ────────────────────────── */
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .two-col > section {
+    border-bottom: none;
+  }
+
+  .two-col > section:first-child {
+    border-right: 1px solid var(--border);
+  }
+
+  /* ── DOM HEATMAP ──────────────────────────────────── */
+  .dom-bars {
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+    height: 120px;
+  }
+
+  .dom-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    gap: 3px;
+    cursor: default;
+    position: relative;
+  }
+
+  .dom-col .bar {
+    width: 100%;
+    background: var(--muted);
+    min-height: 2px;
+  }
+
+  .dom-col.end-zone .bar {
+    background: color-mix(in srgb, var(--accent) 40%, var(--muted));
+  }
+
+  .dom-col:hover .bar { background: var(--accent); }
+
+  .dom-num {
+    font-size: 0.55rem;
+    color: var(--muted);
+    line-height: 1;
+  }
+
+  .dom-col.end-zone .dom-num { color: color-mix(in srgb, var(--accent) 60%, var(--subtle)); }
+
+  .dom-col:hover .dom-num { color: var(--accent); }
+
+  .dom-col .tooltip { bottom: calc(100% + 6px); }
+
+  /* ── WEEKDAY BARS ─────────────────────────────────── */
+  .weekday-chart {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .wd-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 0.72rem;
+  }
+
+  .wd-name {
+    width: 28px;
+    color: var(--subtle);
+    flex-shrink: 0;
+    font-size: 0.65rem;
+    letter-spacing: 0.05em;
+  }
+
+  .wd-track {
+    flex: 1;
+    height: 20px;
+    background: var(--border);
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .wd-fill {
+    height: 100%;
+    border-radius: 2px;
+    background: var(--muted);
+    transition: width 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .wd-row.dominant .wd-fill {
+    background: linear-gradient(90deg, var(--accent2) 0%, var(--accent) 100%);
+  }
+
+  .wd-count {
+    width: 36px;
+    text-align: right;
+    color: var(--subtle);
+    font-size: 0.65rem;
+  }
+
+  .wd-row.dominant .wd-count { color: var(--accent); }
+
+  /* ── INSIGHT BOX ──────────────────────────────────── */
+  .insights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    margin-top: 0;
+  }
+
+  .insight-card {
+    background: var(--surface);
+    padding: 1.5rem;
+  }
+
+  .insight-card .ic-label {
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--subtle);
+    margin-bottom: 0.5rem;
+  }
+
+  .insight-card .ic-val {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: var(--accent);
+    line-height: 1.1;
+  }
+
+  .insight-card .ic-desc {
+    margin-top: 0.4rem;
+    font-size: 0.72rem;
+    color: var(--subtle);
+    line-height: 1.5;
+  }
+
+  /* ── CRON RECOMMENDATION ──────────────────────────── */
+  .cron-section {
+    background: var(--surface);
+  }
+
+  .cron-box {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    background: var(--bg);
+    border: 1px solid var(--accent);
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+    font-size: 0.85rem;
+  }
+
+  .cron-expr {
+    color: var(--accent);
+    font-weight: 500;
+    letter-spacing: 0.08em;
+  }
+
+  .cron-desc {
+    color: var(--subtle);
+    font-size: 0.72rem;
+    border-left: 1px solid var(--border);
+    padding-left: 1rem;
+  }
+
+  /* ── FOOTER ───────────────────────────────────────── */
+  footer {
+    padding: 1.5rem 3rem;
+    color: var(--muted);
+    font-size: 0.65rem;
+    letter-spacing: 0.05em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  @media (max-width: 700px) {
+    header, section, footer { padding-left: 1.5rem; padding-right: 1.5rem; }
+    .two-col { grid-template-columns: 1fr; }
+    .two-col > section:first-child { border-right: none; border-bottom: 1px solid var(--border); }
+    .header-stats { gap: 1.2rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <h1>Moldova IT Park<br><span>Registration Trends</span></h1>
+    <p class="header-sub">mitp.md resident data · 2018 – 2026</p>
+  </div>
+  <div class="header-stats">
+    <div class="stat-pill">
+      <div class="val">3,578</div>
+      <div class="lbl">total residents</div>
+    </div>
+    <div class="stat-pill">
+      <div class="val">789</div>
+      <div class="lbl">active days</div>
+    </div>
+    <div class="stat-pill">
+      <div class="val">~60</div>
+      <div class="lbl">avg / month (2024–25)</div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- MONTHLY TIMELINE -->
+  <section>
+    <div class="section-label">Monthly registrations · 2018–2026</div>
+    <div class="chart-wrap">
+      <div class="monthly-chart" id="monthlyChart">
+        <div class="chart-guides" id="chartGuides"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSIGHTS STRIP -->
+  <div class="insights">
+    <div class="insight-card">
+      <div class="ic-label">Peak month</div>
+      <div class="ic-val">Jun 2024</div>
+      <div class="ic-desc">96 registrations — likely a policy or incentive change driving a surge</div>
+    </div>
+    <div class="insight-card">
+      <div class="ic-label">COVID dip</div>
+      <div class="ic-val">Mar–May 2020</div>
+      <div class="ic-desc">Registrations fell to 6/month during lockdowns; recovered strongly by 2021</div>
+    </div>
+    <div class="insight-card">
+      <div class="ic-label">Growth inflection</div>
+      <div class="ic-val">Early 2022</div>
+      <div class="ic-desc">Monthly average doubled after Q1 2022, and has stayed elevated since</div>
+    </div>
+    <div class="insight-card">
+      <div class="ic-label">Recent pace</div>
+      <div class="ic-val">~65/month</div>
+      <div class="ic-desc">2025 average; Dec 2025 (90) and Feb 2026 (73) both exceeded it</div>
+    </div>
+  </div>
+
+  <!-- DOM + WEEKDAY -->
+  <div class="two-col">
+    <section>
+      <div class="section-label">Registrations by day of month</div>
+      <div class="dom-bars" id="domChart"></div>
+      <p style="margin-top:1rem; font-size:0.7rem; color:var(--subtle); line-height:1.6">
+        Days 26–30 hold <strong style="color:var(--accent)">~30%</strong> of all registrations —
+        a clear end-of-month batch pattern, consistent across all years.
+      </p>
+    </section>
+
+    <section>
+      <div class="section-label">Registrations by weekday</div>
+      <div class="weekday-chart" id="weekdayChart"></div>
+      <p style="margin-top:1rem; font-size:0.7rem; color:var(--subtle); line-height:1.6">
+        Tue + Thu account for <strong style="color:var(--accent)">67%</strong> of all registrations.
+        Likely board or committee processing days.
+      </p>
+    </section>
+  </div>
+
+  <!-- CRON RECOMMENDATION -->
+  <section class="cron-section">
+    <div class="section-label">Scrape schedule recommendation</div>
+    <p style="font-size:0.8rem; color:var(--subtle); max-width:600px; line-height:1.7">
+      Given the end-of-month batch pattern and Tue/Thu dominance, a single monthly scrape
+      on the 1st captures nearly all new registrations from the previous month.
+    </p>
+    <div style="display:flex; flex-wrap:wrap; gap:1rem; margin-top:1rem;">
+      <div class="cron-box">
+        <span class="cron-expr">0 9 1 * *</span>
+        <span class="cron-desc">Monthly · 1st at 09:00<br>Catches end-of-prior-month batch</span>
+      </div>
+      <div class="cron-box" style="border-color:var(--accent2)">
+        <span class="cron-expr" style="color:var(--accent2)">0 9 1,15 * *</span>
+        <span class="cron-desc">Bi-monthly · 1st &amp; 15th<br>Finer granularity, still minimal</span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <span>Source: mitp.md API · scraped 2026-03-03</span>
+  <span>3,578 records · 789 unique registration days</span>
+</footer>
+
+<script>
+const MONTHLY = {"2018-01":77,"2018-02":53,"2018-03":27,"2018-04":13,"2018-05":30,"2018-06":17,"2018-07":28,"2018-08":20,"2018-09":18,"2018-10":15,"2018-11":13,"2018-12":35,"2019-01":15,"2019-02":20,"2019-03":20,"2019-04":17,"2019-05":15,"2019-06":25,"2019-07":15,"2019-08":25,"2019-09":13,"2019-10":12,"2019-11":8,"2019-12":36,"2020-01":14,"2020-02":17,"2020-03":6,"2020-04":6,"2020-05":8,"2020-06":15,"2020-07":16,"2020-08":20,"2020-09":14,"2020-10":25,"2020-11":6,"2020-12":25,"2021-01":23,"2021-02":22,"2021-03":13,"2021-04":32,"2021-05":30,"2021-06":32,"2021-07":31,"2021-08":31,"2021-09":32,"2021-10":25,"2021-11":31,"2021-12":48,"2022-01":26,"2022-02":39,"2022-03":57,"2022-04":42,"2022-05":31,"2022-06":33,"2022-07":45,"2022-08":34,"2022-09":29,"2022-10":47,"2022-11":30,"2022-12":41,"2023-01":44,"2023-02":25,"2023-03":49,"2023-04":29,"2023-05":46,"2023-06":27,"2023-07":34,"2023-08":50,"2023-09":40,"2023-10":45,"2023-11":30,"2023-12":47,"2024-01":36,"2024-02":57,"2024-03":51,"2024-04":42,"2024-05":40,"2024-06":96,"2024-07":79,"2024-08":74,"2024-09":47,"2024-10":61,"2024-11":49,"2024-12":54,"2025-01":46,"2025-02":59,"2025-03":56,"2025-04":75,"2025-05":67,"2025-06":57,"2025-07":72,"2025-08":79,"2025-09":65,"2025-10":63,"2025-11":40,"2025-12":90,"2026-01":41,"2026-02":73};
+
+const DOM = {"1":40,"2":33,"3":36,"4":26,"5":22,"6":26,"7":50,"8":50,"9":48,"10":66,"11":81,"12":63,"13":68,"14":66,"15":63,"16":85,"17":123,"18":143,"19":116,"20":150,"21":146,"22":153,"23":89,"24":151,"25":150,"26":267,"27":225,"28":243,"29":308,"30":353,"31":138};
+
+const WEEKDAY = {"0":292,"1":1239,"2":360,"3":1148,"4":535,"5":4};
+const WEEKDAY_NAMES = ['Mon','Tue','Wed','Thu','Fri','Sat'];
+
+// ── Monthly chart ──────────────────────────────────────
+(function() {
+  const chart = document.getElementById('monthlyChart');
+  const guides = document.getElementById('chartGuides');
+  const entries = Object.entries(MONTHLY);
+  const max = Math.max(...entries.map(e => e[1]));
+  const chartH = 172; // px (200 - 28 label area)
+
+  // guide lines
+  const steps = [25, 50, 75, 100];
+  steps.forEach(v => {
+    const g = document.createElement('div');
+    g.className = 'guide-line';
+    g.style.position = 'absolute';
+    g.style.bottom = (v / max * 100) + '%';
+    g.style.width = '100%';
+    g.innerHTML = `<span>${v}</span>`;
+    guides.appendChild(g);
+  });
+
+  let lastYear = null;
+  entries.forEach(([month, count]) => {
+    const year = month.slice(0, 4);
+    if (year !== lastYear && lastYear !== null) {
+      const sep = document.createElement('div');
+      sep.className = 'year-mark';
+      sep.innerHTML = `<span>${year}</span>`;
+      chart.appendChild(sep);
+    }
+    lastYear = year;
+
+    const col = document.createElement('div');
+    col.className = 'bar-col';
+    const isHighlight = count >= 70;
+    if (isHighlight) col.classList.add('highlight');
+
+    const h = Math.max(2, (count / max) * chartH);
+    const bar = document.createElement('div');
+    bar.className = 'bar';
+    bar.style.height = h + 'px';
+
+    const tip = document.createElement('div');
+    tip.className = 'tooltip';
+    tip.textContent = `${month}: ${count}`;
+
+    const lbl = document.createElement('div');
+    lbl.className = 'bar-label';
+    const mo = month.slice(5, 7);
+    lbl.textContent = mo === '01' ? month.slice(2, 4) : mo;
+
+    col.append(bar, tip, lbl);
+    chart.appendChild(col);
+  });
+})();
+
+// ── DOM chart ──────────────────────────────────────────
+(function() {
+  const chart = document.getElementById('domChart');
+  const entries = Object.entries(DOM);
+  const max = Math.max(...entries.map(e => e[1]));
+
+  entries.forEach(([day, count]) => {
+    const col = document.createElement('div');
+    col.className = 'dom-col';
+    if (parseInt(day) >= 26) col.classList.add('end-zone');
+
+    const h = Math.max(2, (count / max) * 110);
+    const bar = document.createElement('div');
+    bar.className = 'bar';
+    bar.style.height = h + 'px';
+
+    const tip = document.createElement('div');
+    tip.className = 'tooltip';
+    tip.textContent = `Day ${day}: ${count}`;
+
+    const num = document.createElement('div');
+    num.className = 'dom-num';
+    num.textContent = day;
+
+    col.append(bar, tip, num);
+    chart.appendChild(col);
+  });
+})();
+
+// ── Weekday chart ──────────────────────────────────────
+(function() {
+  const chart = document.getElementById('weekdayChart');
+  const entries = Object.entries(WEEKDAY);
+  const max = Math.max(...entries.map(e => e[1]));
+
+  entries.forEach(([idx, count]) => {
+    const isDominant = count > 500;
+    const row = document.createElement('div');
+    row.className = 'wd-row' + (isDominant ? ' dominant' : '');
+
+    const pct = (count / max * 100).toFixed(1);
+    row.innerHTML = `
+      <span class="wd-name">${WEEKDAY_NAMES[idx]}</span>
+      <div class="wd-track">
+        <div class="wd-fill" style="width:0%" data-target="${pct}%"></div>
+      </div>
+      <span class="wd-count">${count.toLocaleString()}</span>
+    `;
+    chart.appendChild(row);
+  });
+
+  // animate in
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      document.querySelectorAll('.wd-fill').forEach(el => {
+        el.style.width = el.dataset.target;
+      });
+    });
+  });
+})();
+</script>
+</body>
+</html>
