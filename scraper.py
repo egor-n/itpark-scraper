@@ -48,13 +48,15 @@ def fetch_page(page_number: int) -> dict:
 
 
 def export_json():
-    records = []
+    seen = {}
     if JSONL_PATH.exists():
         with JSONL_PATH.open(encoding="utf-8") as f:
             for line in f:
                 line = line.strip()
                 if line:
-                    records.append(json.loads(line))
+                    record = json.loads(line)
+                    seen[record["residentNumber"]] = record
+    records = list(seen.values())
     JSON_PATH.write_text(json.dumps(records, ensure_ascii=False, indent=2))
     print(f"Exported {len(records)} records to {JSON_PATH}")
 
@@ -81,7 +83,11 @@ def main():
         export_json()
         return
 
-    start_page = state["last_page"] + 1
+    # If new companies were added but no new pages, re-scrape the last page
+    if new_count > 0 and state["last_page"] >= total_pages - 1:
+        start_page = max(0, state["last_page"])
+    else:
+        start_page = state["last_page"] + 1
     print(f"Resuming from page {start_page} (0-indexed)")
 
     with JSONL_PATH.open("a", encoding="utf-8") as f:
