@@ -31,3 +31,8 @@ jobs:
           git add data.json data.jsonl state.json
           git diff --cached --quiet || git commit -m "chore: update scraped data"
           git push
+
+      - name: Deploy to Cloudflare Pages
+        run: npx wrangler pages deploy . --project-name mitp --branch main
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
