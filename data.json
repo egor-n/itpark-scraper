@@ -80417,7 +80417,7 @@
       "62.02"
     ],
     "administrator": "ANTON NEGIN",
-    "joinDate": "2026-02-26",
+    "joinDate": "2026-03-20",
     "phone": "+373 68570478",
     "email": "anton@de1337ed.ru",
     "isResident": "Active",
@@ -81823,5 +81823,24 @@
       "ipCompany"
     ],
     "id": "1026600010653"
+  },
+  {
+    "residentNumber": 3596,
+    "companyName": "\"PROTRUCKING SERVICES\" S.R.L.",
+    "legalHeadquarters": "mun. Chișinău, or. Durlești, Tudor Vladimirescu, 16, 35, MD-2003",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "82.20"
+    ],
+    "administrator": "MARIUS-ADRIAN BANARI",
+    "joinDate": "2026-03-19",
+    "phone": "+373 69053535",
+    "email": "protruckingservicess@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600009080",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600009080"
   }
 ]
