@@ -81944,5 +81944,46 @@
       "ipCompany"
     ],
     "id": "1026608000463"
+  },
+  {
+    "residentNumber": 3604,
+    "companyName": "\"MOT DIGITAL SOLUTIONS\" S.R.L.",
+    "legalHeadquarters": "mun. Chișinău, s. Colonița, Ștefan cel Mare și Sfânt, 12B, <, MD-2082",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "82.20"
+    ],
+    "administrator": "CĂTĂLINA MOTELICĂ",
+    "joinDate": "2026-03-23",
+    "phone": "+373 69378666",
+    "email": "katetaurus1@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600009600",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600009600"
+  },
+  {
+    "residentNumber": 3607,
+    "companyName": "Î.I. \"BULARU LILIAN\"",
+    "legalHeadquarters": "rl. Cahul, s. Slobozia Mare, <, <, <, MD-5320",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "63.11",
+      "63.12"
+    ],
+    "administrator": "LILIAN BULARU",
+    "joinDate": "2026-03-23",
+    "phone": "+373 60270782",
+    "email": "llbularu@gmail.com",
+    "isResident": "Active",
+    "_id": "1026603000310",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026603000310"
   }
 ]
