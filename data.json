@@ -82262,5 +82262,173 @@
       "ipCompany"
     ],
     "id": "1026600009220"
+  },
+  {
+    "residentNumber": 3623,
+    "companyName": "\"NPLEX TERRA\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU RÎȘCANI, mun. Chișinău, Nicolae Dimo, 29/1, 45, MD-2045",
+    "requestedRegistrationPeriod": "2030-03-17",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "62.03",
+      "63.11",
+      "62.09"
+    ],
+    "administrator": "NICOLAI PETROV",
+    "joinDate": "2026-03-31",
+    "phone": "+373 69288331",
+    "email": "petrov.nicolai@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600011007",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600011007"
+  },
+  {
+    "residentNumber": 3624,
+    "companyName": "\"LUMENIX SOFT\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU CIOCANA, mun. Chișinău, Alecu Russo, 24, 130, MD-2044",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01"
+    ],
+    "administrator": "YAUHEN TURKU",
+    "joinDate": "2026-03-31",
+    "phone": "+373 68408944",
+    "email": "eugene.turku@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600009116",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600009116"
+  },
+  {
+    "residentNumber": 3625,
+    "companyName": "Î.I. DANIELA BÎZGU",
+    "legalHeadquarters": "CRIULENI, DUBĂSARII VECHI, <, <, <, MD-4822",
+    "requestedRegistrationPeriod": "2030-03-29",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "62.09",
+      "63.11"
+    ],
+    "administrator": "DANIELA BÎZGU",
+    "joinDate": "2026-03-31",
+    "phone": "+373 62030361",
+    "email": "bizgudaniela1@gmail.com",
+    "isResident": "Active",
+    "_id": "1026023018458",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026023018458"
+  },
+  {
+    "residentNumber": 3626,
+    "companyName": "\"TCACI TESTING\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU CENTRU, mun. Chișinău, Nicolae Testemițanu, 21, 53, MD-2025",
+    "requestedRegistrationPeriod": "2030-03-15",
+    "eligibleActivities": [
+      "62.02"
+    ],
+    "administrator": "SERGIU TCACI",
+    "joinDate": "2026-03-31",
+    "phone": "+373 79994147",
+    "email": "tcacisergiu.cf@gmail.com",
+    "isResident": "Active",
+    "_id": "1025600045584",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1025600045584"
+  },
+  {
+    "residentNumber": 3627,
+    "companyName": "S.R.L. \"CAPO GAMES\"",
+    "legalHeadquarters": "rl. Cantemir, s. Cania, <, <, <, MD-7314",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "58.21",
+      "63.11",
+      "62.01"
+    ],
+    "administrator": "DMITRI CUNEV",
+    "joinDate": "2026-03-31",
+    "phone": "+373 67694249",
+    "email": "dmitricunev@gmail.com",
+    "isResident": "Active",
+    "_id": "1026603000321",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026603000321"
+  },
+  {
+    "residentNumber": 3628,
+    "companyName": "\"LAAM SOLUTIONS\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU BUIUCANI, mun. Chișinău, Alba-Iulia, 75/5, 5, MD-2071",
+    "requestedRegistrationPeriod": "2030-03-12",
+    "eligibleActivities": [
+      "58.29",
+      "62.01",
+      "62.02",
+      "78.30.11"
+    ],
+    "administrator": "ARTUR LUPOLOV",
+    "joinDate": "2026-03-31",
+    "phone": "+373 78388444",
+    "email": "solutionslaam@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600004384",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600004384"
+  },
+  {
+    "residentNumber": 3629,
+    "companyName": "\"DFG SUPORT SERVICE\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU CENTRU, mun. Chișinău, Nicolae Testemițanu, 13/18, MD-2025",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "82.20"
+    ],
+    "administrator": "DENIS SUSARENCU",
+    "joinDate": "2026-03-31",
+    "phone": "+373 69632991",
+    "email": "denis.susarencu@dtransplus.com",
+    "isResident": "Active",
+    "_id": "1026600009943",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600009943"
+  },
+  {
+    "residentNumber": 3630,
+    "companyName": "\"SENTINEL ENGINEERING\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU CENTRU, mun. Chișinău, Albișoara, 4, 512, MD-2001",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "58.29",
+      "63.11",
+      "62.02",
+      "78.30.11"
+    ],
+    "administrator": "CRISTIAN BESARAB",
+    "joinDate": "2026-03-31",
+    "phone": "+40 759220230",
+    "email": "mchesaru@icloud.com",
+    "isResident": "Active",
+    "_id": "1026600003310",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600003310"
   }
 ]
