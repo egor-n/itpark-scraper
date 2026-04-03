@@ -82430,5 +82430,95 @@
       "ipCompany"
     ],
     "id": "1026600003310"
+  },
+  {
+    "residentNumber": 3631,
+    "companyName": "\"TECH FORCE DIGITAL\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU RÎȘCANI, mun. Chișinău, Florilor, 32A, 1, MD-2068",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "62.09",
+      "63.11"
+    ],
+    "administrator": "DAVID CRUCES ALCAMPEL",
+    "joinDate": "2026-04-02",
+    "phone": "+40 748566007",
+    "email": "tfdmoldova@gmail.com",
+    "isResident": "Active",
+    "_id": "1025600067122",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1025600067122"
+  },
+  {
+    "residentNumber": 3632,
+    "companyName": "\"GUSTIN SOFTWARE CONSULTING\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU RÎȘCANI, mun. Chișinău, Florica Niță, 2, 42, MD-2024",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "72.19.12",
+      "58.29"
+    ],
+    "administrator": "GRIGORI GUSTIN",
+    "joinDate": "2026-04-02",
+    "phone": "+373 69870617",
+    "email": "gr.gustin@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600008706",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600008706"
+  },
+  {
+    "residentNumber": 3633,
+    "companyName": "\"ITARA SOLUTIONS\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU RÎȘCANI, mun. Chișinău, Nicolae Dimo, 23/3, 26, MD-2068",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.03",
+      "63.12",
+      "62.02"
+    ],
+    "administrator": "VLADISLAV DAȘCHEVICI",
+    "joinDate": "2026-04-02",
+    "phone": "+373 0",
+    "email": "itarasolutionssrl@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600010756",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600010756"
+  },
+  {
+    "residentNumber": 3634,
+    "companyName": "\"PROFITECH CONSULTING\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU BUIUCANI, mun. Chișinău, Alba-Iulia, 79/1, 01, MD-2071",
+    "requestedRegistrationPeriod": "2031-03-18",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "62.03",
+      "62.09",
+      "63.11",
+      "58.29"
+    ],
+    "administrator": "YURIY NESTEROV",
+    "joinDate": "2026-04-02",
+    "phone": "+373 69022459",
+    "email": "ynesterov1@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600012565",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600012565"
   }
 ]
