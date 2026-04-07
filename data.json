@@ -82155,8 +82155,8 @@
     ],
     "administrator": "DIONIS-DANIEL BRADU",
     "joinDate": "2026-03-30",
-    "phone": "+373 78335007",
-    "email": "info@jizdan.md",
+    "phone": "+373 61210444",
+    "email": "general.info.officemd@gmail.com",
     "isResident": "Active",
     "_id": "1025600005373",
     "_entity": [
@@ -82520,5 +82520,25 @@
       "ipCompany"
     ],
     "id": "1026600012565"
+  },
+  {
+    "residentNumber": 3635,
+    "companyName": "\"ATEAM SOFT\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU CIOCANA, mun. Chișinău, Mihail Sadoveanu, 15/2, 71, MD-2044",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02"
+    ],
+    "administrator": "PAVEL NOVAC",
+    "joinDate": "2026-04-07",
+    "phone": "+373 79009354",
+    "email": "mdateamsoft@gmail.com",
+    "isResident": "Active",
+    "_id": "1016600009425",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1016600009425"
   }
 ]
