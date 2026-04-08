@@ -82540,5 +82540,199 @@
       "ipCompany"
     ],
     "id": "1016600009425"
+  },
+  {
+    "residentNumber": 3636,
+    "companyName": "\"CAPYBARA LABS\" S.R.L.",
+    "legalHeadquarters": "IALOVENI, or. Ialoveni, Alexandru cel Bun, 29, 4, MD-6801",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "58.29",
+      "62.01",
+      "62.02",
+      "62.03",
+      "62.09",
+      "63.11",
+      "63.12"
+    ],
+    "administrator": "GRIGORE CREȚU",
+    "joinDate": "2026-04-07",
+    "phone": "+373 68645911",
+    "email": "grigore.cretu.dev@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600011306",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600011306"
+  },
+  {
+    "residentNumber": 3637,
+    "companyName": "\"MACAREVICI DEV\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU BOTANICA, mun. Chișinău, Tudor Strișcă, 8/3, 140, MD-2043",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02"
+    ],
+    "administrator": "VLADIMIR MACAREVICI",
+    "joinDate": "2026-04-07",
+    "phone": "+373 62002295",
+    "email": "vvmvavo@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600012369",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600012369"
+  },
+  {
+    "residentNumber": 3638,
+    "companyName": "\"INFO IT SOLUTIONS\" S.R.L.",
+    "legalHeadquarters": "rl. Orhei, s. Peresecina, <, <, <, MD-3541",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "63.11",
+      "58.29"
+    ],
+    "administrator": "IOANNIS NEPOTU",
+    "joinDate": "2026-04-07",
+    "phone": "+373 60783833",
+    "email": "ion.nepotu2002@gmail.com",
+    "isResident": "Active",
+    "_id": "1026606001042",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026606001042"
+  },
+  {
+    "residentNumber": 3639,
+    "companyName": "\"DVD-ENERGY-TECH\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU BOTANICA, mun. Chișinău, Grădina Botanică, 18, 187, MD-2062",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.03",
+      "62.09"
+    ],
+    "administrator": "ALEXANDRU-ILIE NEMEȘ",
+    "joinDate": "2026-04-07",
+    "phone": "+40 769222705",
+    "email": "alexandru.nemes@tbsr.ro",
+    "isResident": "Active",
+    "_id": "1026600012141",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600012141"
+  },
+  {
+    "residentNumber": 3640,
+    "companyName": "\"NEXTFRAME TECH SOLUTIONS\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU RÎȘCANI, mun. Chișinău, Socoleni, 19/2, 25, MD-2020",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01"
+    ],
+    "administrator": "VITALIE GRIZA",
+    "joinDate": "2026-04-07",
+    "phone": "+373 68429669",
+    "email": "vitaliegriza@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600013791",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600013791"
+  },
+  {
+    "residentNumber": 3641,
+    "companyName": "\"MONAKHOV TECH\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU RÎȘCANI, mun. Chișinău, Alecu Russo, 24, 130, MD-2044",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "62.09"
+    ],
+    "administrator": "OLEKSII MONAKHOV",
+    "joinDate": "2026-04-07",
+    "phone": "+373 62149591",
+    "email": "goshagriboedskii@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600009150",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600009150"
+  },
+  {
+    "residentNumber": 3642,
+    "companyName": "\"STRATOSIT\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU BUIUCANI, mun. Chișinău, Alba-Iulia, 79/1, 01, MD-2071",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "63.11",
+      "63.12",
+      "62.01",
+      "62.02"
+    ],
+    "administrator": "NICOLAE-GABRIEL IANCU",
+    "joinDate": "2026-04-07",
+    "phone": "+373 61130818",
+    "email": "iancunicolaegabriel@yahoo.com",
+    "isResident": "Active",
+    "_id": "1026600007905",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600007905"
+  },
+  {
+    "residentNumber": 3643,
+    "companyName": "\"VS DISPATCH SERVICES\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU CENTRU, mun. Chișinău, Vasile Alecsandri, 17, 51, MD-2009",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "82.20"
+    ],
+    "administrator": "SIMION VAINBERG",
+    "joinDate": "2026-04-07",
+    "phone": "+373 79526282",
+    "email": "semann7@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600012473",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600012473"
+  },
+  {
+    "residentNumber": 3644,
+    "companyName": "S.R.L. \"WISE CLOUD\"",
+    "legalHeadquarters": "BĂLȚI, mun. Bălți, Smolean, 21, MD-3100",
+    "requestedRegistrationPeriod": "2036-02-29",
+    "eligibleActivities": [
+      "62.01",
+      "58.29",
+      "62.02",
+      "62.03",
+      "62.09",
+      "63.12",
+      "63.11",
+      "85.59"
+    ],
+    "administrator": "PAVEL CĂPĂȚÎNĂ",
+    "joinDate": "2026-04-07",
+    "phone": "+373 69332828",
+    "email": "wisecloudserver@gmail.com",
+    "isResident": "Active",
+    "_id": "1025602005883",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1025602005883"
   }
 ]
