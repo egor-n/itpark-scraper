@@ -82734,5 +82734,241 @@
       "ipCompany"
     ],
     "id": "1025602005883"
+  },
+  {
+    "residentNumber": 3645,
+    "companyName": "\"AQUILA VISION\" S.R.L.",
+    "legalHeadquarters": "mun. Chișinău, or. Durlești, Rediul Mare, 14/1, <, MD-2003",
+    "requestedRegistrationPeriod": "2031-02-28",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "62.03",
+      "62.09",
+      "63.11",
+      "63.12",
+      "58.29"
+    ],
+    "administrator": "NICOLAE ISTRATE",
+    "joinDate": "2026-04-09",
+    "phone": "+373 60016521",
+    "email": "istratenicu@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600007569",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600007569"
+  },
+  {
+    "residentNumber": 3646,
+    "companyName": "\"CHELARU SOFT\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU BUIUCANI, mun. Chișinău, Ioana Radu, 27/8, 415, MD-2008",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02"
+    ],
+    "administrator": "ARTUR CHELARU",
+    "joinDate": "2026-04-09",
+    "phone": "+373 79011505",
+    "email": "kevlaru.soft@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600010996",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600010996"
+  },
+  {
+    "residentNumber": 3647,
+    "companyName": "\"SLT LOGISTICS\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU RÎȘCANI, mun. Chișinău, Alecu Russo, 15, 46, MD-2068",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "82.20"
+    ],
+    "administrator": "ECATERINA GROZDEVA",
+    "joinDate": "2026-04-09",
+    "phone": "+373 79981055",
+    "email": "kate.gtx@gmail.com",
+    "isResident": "Active",
+    "_id": "1021600025931",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1021600025931"
+  },
+  {
+    "residentNumber": 3648,
+    "companyName": "\"FLUID SYSTEMS\" S.R.L.",
+    "legalHeadquarters": "EDINEȚ, mun. Edineț, Valentin Roșca, 7, <, MD-4601",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "63.11",
+      "63.12",
+      "62.03",
+      "62.09",
+      "62.02"
+    ],
+    "administrator": "VASILI PINCOV",
+    "joinDate": "2026-04-09",
+    "phone": "+373 60442001",
+    "email": "contact@fluidsystems.md",
+    "isResident": "Active",
+    "_id": "1026600009286",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600009286"
+  },
+  {
+    "residentNumber": 3649,
+    "companyName": "\"GLAZUNOV LAB\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU BOTANICA, mun. Chișinău, Decebal bd., 6, MD-2002",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "63.11"
+    ],
+    "administrator": "ILYA GLAZUNOV",
+    "joinDate": "2026-04-09",
+    "phone": "+373 76641895",
+    "email": "ilya.glazunow@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600012093",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600012093"
+  },
+  {
+    "residentNumber": 3650,
+    "companyName": "\"PROUD SOLUTION\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU BUIUCANI, mun. Chișinău, Dragomirna, 33, MD-2008",
+    "requestedRegistrationPeriod": "2035-03-20",
+    "eligibleActivities": [
+      "63.12",
+      "62.02",
+      "62.09",
+      "58.29",
+      "62.01"
+    ],
+    "administrator": "EUGEN MÎNDRU",
+    "joinDate": "2026-04-09",
+    "phone": "+373 68508307",
+    "email": "mindru.01@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600012174",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600012174"
+  },
+  {
+    "residentNumber": 3651,
+    "companyName": "\"AUDENTES IT SOLUTIONS\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU CENTRU, mun. Chișinău, Mihail Kogălniceanu, 66, 4, MD-2012",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "63.11",
+      "63.12"
+    ],
+    "administrator": "GHEORGHE MARIAN STOIAN",
+    "joinDate": "2026-04-09",
+    "phone": "+40 722627050",
+    "email": "marian.stoian@advisory.ro",
+    "isResident": "Active",
+    "_id": "1025600074041",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1025600074041"
+  },
+  {
+    "residentNumber": 3652,
+    "companyName": "\"BRDZ SOLUTIONS\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU CENTRU, mun. Chișinău, Alexandru cel Bun, 51/A, MD-2012",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "63.11",
+      "62.03",
+      "62.09",
+      "62.02"
+    ],
+    "administrator": "DANYLO BURDUZHA",
+    "joinDate": "2026-04-09",
+    "phone": "+373 79907177",
+    "email": "danilburduzha@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600011258",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600011258"
+  },
+  {
+    "residentNumber": 3653,
+    "companyName": "\"MELINCEANU TRADE\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU BOTANICA, mun. Chișinău, Muncești șos., 73, MD-2002",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "58.29",
+      "62.01",
+      "62.02",
+      "62.09"
+    ],
+    "administrator": "VICTOR MELINCEANU",
+    "joinDate": "2026-04-09",
+    "phone": "+373 68835152",
+    "email": "melinn2002@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600013193",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600013193"
+  },
+  {
+    "residentNumber": 3654,
+    "companyName": "\"CENTRAL DEV\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU BUIUCANI, mun. Chișinău, Alba-Iulia, 21, 1, MD-2051",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01"
+    ],
+    "administrator": "MARCU REUȚKI",
+    "joinDate": "2026-04-09",
+    "phone": "+373 60780623",
+    "email": "reutki@centraldev.solutions",
+    "isResident": "Active",
+    "_id": "1026600011890",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600011890"
+  },
+  {
+    "residentNumber": 3655,
+    "companyName": "\"DEV STORIES\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU CENTRU, mun. Chișinău, Mihai Eminescu, 72, 105, MD-2012",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02"
+    ],
+    "administrator": "ECATERINA MOȘENSCAIA",
+    "joinDate": "2026-04-09",
+    "phone": "+373 68553304",
+    "email": "devstories@yandex.com",
+    "isResident": "Active",
+    "_id": "1026600010527",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600010527"
   }
 ]
