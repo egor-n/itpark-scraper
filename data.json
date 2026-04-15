@@ -82970,5 +82970,24 @@
       "ipCompany"
     ],
     "id": "1026600010527"
+  },
+  {
+    "residentNumber": 3656,
+    "companyName": "\"ONEWAYTRIP\" S.R.L.",
+    "legalHeadquarters": "mun. Chișinău, or. Codru, Costiujeni, 3/1, 35, MD-2011",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "82.20"
+    ],
+    "administrator": "MAXIM BALABAN",
+    "joinDate": "2026-04-14",
+    "phone": "+373 78123626",
+    "email": "t0nye1337@gmail.com",
+    "isResident": "Active",
+    "_id": "1025600040936",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1025600040936"
   }
 ]
