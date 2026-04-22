@@ -82989,5 +82989,191 @@
       "ipCompany"
     ],
     "id": "1025600040936"
+  },
+  {
+    "residentNumber": 3657,
+    "companyName": "\"ELITE ESTATE\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU BOTANICA, mun. Chișinău, Cuza-Vodă bd., 8/2, 130, MD-2060",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "82.20"
+    ],
+    "administrator": "TATIANA CHIREU",
+    "joinDate": "2026-04-21",
+    "phone": "+373 79795737",
+    "email": "bbeetv@gmail.com",
+    "isResident": "Active",
+    "_id": "1025600011996",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1025600011996"
+  },
+  {
+    "residentNumber": 3658,
+    "companyName": "\"BYTEET SYSTEMS\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU BUIUCANI, mun. Chișinău, Alba-Iulia, 77/14, 3, MD-2071",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "62.03",
+      "62.09",
+      "63.11",
+      "63.12"
+    ],
+    "administrator": "ALEXANDRU SÎRBU",
+    "joinDate": "2026-04-21",
+    "phone": "+373 68746470",
+    "email": "info@byteet.md",
+    "isResident": "Active",
+    "_id": "1026600013920",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600013920"
+  },
+  {
+    "residentNumber": 3659,
+    "companyName": "\"NEXORA CONSULTING\" S.R.L.",
+    "legalHeadquarters": "rl. Șoldănești, s. Chipeșca, <, <, MD-7212",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01"
+    ],
+    "administrator": "PAVEL CEPRAGA",
+    "joinDate": "2026-04-21",
+    "phone": "+373 68992359",
+    "email": "cepraga96.pc@gmail.com",
+    "isResident": "Active",
+    "_id": "1026606001031",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026606001031"
+  },
+  {
+    "residentNumber": 3660,
+    "companyName": "S.R.L. \"DSM CENTER INVEST\"",
+    "legalHeadquarters": "CHIȘINĂU BUIUCANI, mun. Chișinău, Alba-Iulia, 21, 1, MD-2071",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "82.20.",
+      "82.20"
+    ],
+    "administrator": "DANIEL MARIAN SAGHIN",
+    "joinDate": "2026-04-21",
+    "phone": "+373 78902482",
+    "email": "dsmcenterinvest@gmail.com",
+    "isResident": "Active",
+    "_id": "1026603000435",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026603000435"
+  },
+  {
+    "residentNumber": 3661,
+    "companyName": "Î.I. \"OLEFIR DMYTRO\"",
+    "legalHeadquarters": "CHIȘINĂU BUIUCANI, mun. Chișinău, Alba-Iulia, 21, 28, MD-2071",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "62.09",
+      "63.11",
+      "63.12"
+    ],
+    "administrator": "DMYTRO OLEFIR",
+    "joinDate": "2026-04-21",
+    "phone": "+373 69429897",
+    "email": "olefir.dmitriy@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600014385",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600014385"
+  },
+  {
+    "residentNumber": 3662,
+    "companyName": "\"AXIOM IT SERVICES\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU CENTRU, mun. Chișinău, Mihail Kogălniceanu, 66, 4, MD-2009",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "63.11"
+    ],
+    "administrator": "SABINA-NICOLA CRĂCIUNESCU",
+    "joinDate": "2026-04-21",
+    "phone": "+40 764838220",
+    "email": "vlad.ulman1@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600009862",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600009862"
+  },
+  {
+    "residentNumber": 3663,
+    "companyName": "\"CARTIFY LABS\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU BUIUCANI, mun. Chișinău, Suceava, 133A, <, MD-2051",
+    "requestedRegistrationPeriod": "2030-03-16",
+    "eligibleActivities": [
+      "62.01",
+      "74.10"
+    ],
+    "administrator": "ALEXEI MUNTEANU",
+    "joinDate": "2026-04-21",
+    "phone": "+373 79591133",
+    "email": "a.munteanu@consultant.com",
+    "isResident": "Active",
+    "_id": "1026600011177",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600011177"
+  },
+  {
+    "residentNumber": 3664,
+    "companyName": "\"LINKLAB\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU CIOCANA, mun. Chișinău, Industrială, 40, MD-2037",
+    "requestedRegistrationPeriod": "2035-03-29",
+    "eligibleActivities": [
+      "58.29",
+      "63.11",
+      "62.01"
+    ],
+    "administrator": "BORIS UMITBAEV",
+    "joinDate": "2026-04-21",
+    "phone": "+373 60387654",
+    "email": "linklab.moldova@gmail.com",
+    "isResident": "Active",
+    "_id": "1025600053695",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1025600053695"
+  },
+  {
+    "residentNumber": 3665,
+    "companyName": "\"N&J LOGISTICS\" S.R.L.",
+    "legalHeadquarters": "rl. Anenii Noi, s. Mereni, Ștefan cel Mare, 6, <, MD-6526",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "82.20"
+    ],
+    "administrator": "VICTORIA NICHITA",
+    "joinDate": "2026-04-21",
+    "phone": "+373 68542308",
+    "email": "lj.logisticssrl@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600012059",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600012059"
   }
 ]
