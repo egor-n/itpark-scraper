@@ -83175,5 +83175,26 @@
       "ipCompany"
     ],
     "id": "1026600012059"
+  },
+  {
+    "residentNumber": 3669,
+    "companyName": "\"WAKING WAVE\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU BUIUCANI, mun. Chișinău, Ghioceilor, 9, 42, MD-2008",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "58.21"
+    ],
+    "administrator": "OLGA GHERȘTOGA",
+    "joinDate": "2026-04-23",
+    "phone": "+373 69313709",
+    "email": "contact@wakingwave.com",
+    "isResident": "Active",
+    "_id": "1026600013492",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600013492"
   }
 ]
