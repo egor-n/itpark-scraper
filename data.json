@@ -83196,5 +83196,71 @@
       "ipCompany"
     ],
     "id": "1026600013492"
+  },
+  {
+    "residentNumber": 3666,
+    "companyName": "S.R.L. \"CODEVIA SOFTWARE\"",
+    "legalHeadquarters": "DROCHIA, or. Drochia, Aurel David, 50, <, MD-5202",
+    "requestedRegistrationPeriod": "2030-04-01",
+    "eligibleActivities": [
+      "62.01",
+      "62.03",
+      "62.02"
+    ],
+    "administrator": "NELU DRAGAN",
+    "joinDate": "2026-04-23",
+    "phone": "+373 67317037",
+    "email": "nelu@dragan.me",
+    "isResident": "Active",
+    "_id": "1026607000488",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026607000488"
+  },
+  {
+    "residentNumber": 3667,
+    "companyName": "\"KOFFWARE\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU BUIUCANI, mun. Chișinău, Paris, 53/3, 53, MD-2051",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "62.09",
+      "63.11",
+      "63.12",
+      "58.29"
+    ],
+    "administrator": "VLADIMIR SADICOV",
+    "joinDate": "2026-04-23",
+    "phone": "+373 68013777",
+    "email": "sadikoff@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600015511",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600015511"
+  },
+  {
+    "residentNumber": 3668,
+    "companyName": "\"SETTI SOLUTIONS\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU RÎȘCANI, mun. Chișinău, Alecu Russo, 24, 130, MD-2044",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "63.11",
+      "62.02"
+    ],
+    "administrator": "DAVUT MUGAR",
+    "joinDate": "2026-04-23",
+    "phone": "+373 69400534",
+    "email": "davut.mugar@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600009482",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600009482"
   }
 ]
