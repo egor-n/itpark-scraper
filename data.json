@@ -83262,5 +83262,135 @@
       "ipCompany"
     ],
     "id": "1026600009482"
+  },
+  {
+    "residentNumber": 3670,
+    "companyName": "\"RISEWORK-TECH\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU RÎȘCANI, mun. Chișinău, Gheorghe Madan, 32, 10, MD-2020",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.03",
+      "63.11",
+      "63.12",
+      "62.02",
+      "62.09"
+    ],
+    "administrator": "DAN SURILĂ",
+    "joinDate": "2026-04-28",
+    "phone": "+373 69828680",
+    "email": "suriladan@gmail.com",
+    "isResident": "Active",
+    "_id": "1026606001569",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026606001569"
+  },
+  {
+    "residentNumber": 3675,
+    "companyName": "S.R.L. \"I.S.L. INTERNATIONAL LOGISTICS\"",
+    "legalHeadquarters": "rl. Hîncești, s. Ciuciuleni, <, <, <, MD-6422",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "82.20"
+    ],
+    "administrator": "ION LUPU",
+    "joinDate": "2026-04-28",
+    "phone": "+39 3270026925",
+    "email": "Lupuion53@yahoo.it",
+    "isResident": "Active",
+    "_id": "1026605000912",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026605000912"
+  },
+  {
+    "residentNumber": 3677,
+    "companyName": "\"BID PULSE TECH\" S.R.L.",
+    "legalHeadquarters": "rl. Florești, s. Japca, <, <, <, MD-6645",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01"
+    ],
+    "administrator": "DMITRII ERIOMIN",
+    "joinDate": "2026-04-28",
+    "phone": "+373 76099591",
+    "email": "eremindmytry@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600012820",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600012820"
+  },
+  {
+    "residentNumber": 3678,
+    "companyName": "\"BULATETSKYI  TECH\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU CIOCANA, mun. Chișinău, Alecu Russo, 24, 130, MD-2044",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "58.29",
+      "62.02",
+      "62.09",
+      "62.01",
+      "63.11"
+    ],
+    "administrator": "YEVHENII BULATETSKYI",
+    "joinDate": "2026-04-28",
+    "phone": "+373 60872694",
+    "email": "evyshkav@yahoo.com",
+    "isResident": "Active",
+    "_id": "1026600014824",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600014824"
+  },
+  {
+    "residentNumber": 3679,
+    "companyName": "\"COGNORA\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU RÎȘCANI, mun. Chișinău, Alecu Russo, 24, 130, MD-2044",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02"
+    ],
+    "administrator": "FIODOR LATÎPOV",
+    "joinDate": "2026-04-28",
+    "phone": "+373 76715274",
+    "email": "freddy121@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600015197",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600015197"
+  },
+  {
+    "residentNumber": 3680,
+    "companyName": "\"YOURDEVOPS\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU RÎȘCANI, mun. Chișinău, Moscova bd., 7/1, 42, MD-2068",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.02",
+      "62.01",
+      "62.03",
+      "62.09",
+      "63.11",
+      "63.12",
+      "58.29"
+    ],
+    "administrator": "FIODOR ANDRUHIN",
+    "joinDate": "2026-04-28",
+    "phone": "+373 68269922",
+    "email": "contact@yourdevops.me",
+    "isResident": "Active",
+    "_id": "1026600010491",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600010491"
   }
 ]
