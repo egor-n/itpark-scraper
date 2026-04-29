@@ -82726,9 +82726,8 @@
     ],
     "administrator": "PAVEL CĂPĂȚÎNĂ",
     "joinDate": "2026-04-07",
-    "phone": "+373 69332828",
-    "email": "wisecloudserver@gmail.com",
-    "isResident": "Active",
+    "recallDate": "2026-04-28",
+    "isResident": "Inactive",
     "_id": "1025602005883",
     "_entity": [
       "ipCompany"
@@ -83392,5 +83391,118 @@
       "ipCompany"
     ],
     "id": "1026600010491"
+  },
+  {
+    "residentNumber": 3671,
+    "companyName": "\"FINSTAT EXPERT\" S.R.L.",
+    "legalHeadquarters": "rl. Cimișlia, s. Gradiște, <, <, <, MD-4117",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "62.09",
+      "72.19.11",
+      "72.19.12",
+      "63.11"
+    ],
+    "administrator": "ANDRIAN TATARU",
+    "joinDate": "2026-04-28",
+    "phone": "+373 69154776",
+    "email": "finstat.expert@gmail.com",
+    "isResident": "Active",
+    "_id": "1022600009026",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1022600009026"
+  },
+  {
+    "residentNumber": 3672,
+    "companyName": "\"OASHISU\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU BUIUCANI, mun. Chișinău, Vasile Lupu, 42G, 3, MD-2008",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.02",
+      "62.09",
+      "85.59",
+      "58.29",
+      "62.01",
+      "62.03",
+      "63.11",
+      "63.12"
+    ],
+    "administrator": "DANIEL AGRICI",
+    "joinDate": "2026-04-28",
+    "phone": "+373 76883141",
+    "email": "agricidaniel@gmail.com",
+    "isResident": "Active",
+    "_id": "1024600062739",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1024600062739"
+  },
+  {
+    "residentNumber": 3673,
+    "companyName": "\"DIGITAL BAY\" S.R.L.",
+    "legalHeadquarters": "mun. Chișinău, s. Colonița, Ciprian Porumbescu, 12, MD-2082",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02"
+    ],
+    "administrator": "ALEXANDRU BALAN",
+    "joinDate": "2026-04-28",
+    "phone": "+373 60509933",
+    "email": "connect@digitalbay.md",
+    "isResident": "Active",
+    "_id": "1025600028653",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1025600028653"
+  },
+  {
+    "residentNumber": 3674,
+    "companyName": "\"LAWIN CONSULTING\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU CIOCANA, mun. Chișinău, Mircea cel Bătrân bd., 39, 316, MD-2075",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "63.11",
+      "62.02"
+    ],
+    "administrator": "ALEXANDRU IVANOV",
+    "joinDate": "2026-04-28",
+    "phone": "+373 79779887",
+    "email": "Ivanov@lawinconsult.com",
+    "isResident": "Active",
+    "_id": "1020600019001",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1020600019001"
+  },
+  {
+    "residentNumber": 3676,
+    "companyName": "S.R.L. \"ONETAP STUDIO\"",
+    "legalHeadquarters": "CHIȘINĂU RÎȘCANI, mun. Chișinău, Bariera Orhei, 3D, 8, MD-2014",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "74.10",
+      "62.01",
+      "62.02",
+      "58.29"
+    ],
+    "administrator": "IULIAN BLANARI",
+    "joinDate": "2026-04-28",
+    "phone": "+373 68906197",
+    "email": "hello@onetap.design",
+    "isResident": "Active",
+    "_id": "1026605000716",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026605000716"
   }
 ]
