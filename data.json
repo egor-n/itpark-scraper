@@ -83504,5 +83504,439 @@
       "ipCompany"
     ],
     "id": "1026605000716"
+  },
+  {
+    "residentNumber": 3681,
+    "companyName": "\"SÎRBU RMG GRUP\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU CENTRU, mun. Chișinău, Anatol Corobceanu, 17, MD-2004",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "82.20"
+    ],
+    "administrator": "RADU SÎRBU",
+    "joinDate": "2026-04-29",
+    "phone": "+373 60373915",
+    "email": "radysyrby@gmail.com",
+    "isResident": "Active",
+    "_id": "1025600033176",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1025600033176"
+  },
+  {
+    "residentNumber": 3682,
+    "companyName": "S.R.L. \"SAFEDEV LABS\"",
+    "legalHeadquarters": "CHIȘINĂU BOTANICA, mun. Chișinău, Doctor Tudor Strișca, 8/7, 61, MD-2043",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "58.29",
+      "62.01",
+      "62.02",
+      "62.03",
+      "62.09",
+      "63.11",
+      "63.12"
+    ],
+    "administrator": "ROBERT GUȚULEAC",
+    "joinDate": "2026-04-29",
+    "phone": "+373 68115511",
+    "email": "robert.gutuleac@netsafe.md",
+    "isResident": "Active",
+    "_id": "1026605000794",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026605000794"
+  },
+  {
+    "residentNumber": 3683,
+    "companyName": "S.R.L. \"DOUBLE HELIX\"",
+    "legalHeadquarters": "CAHUL, mun. Cahul, Dunării, 5, 15, MD-3901",
+    "requestedRegistrationPeriod": "2030-04-15",
+    "eligibleActivities": [
+      "58.29",
+      "62.01",
+      "62.02"
+    ],
+    "administrator": "ELENA CROITOR",
+    "joinDate": "2026-04-29",
+    "phone": "+373 69601850",
+    "email": "crt8helena@gmail.com",
+    "isResident": "Active",
+    "_id": "1026603000837",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026603000837"
+  },
+  {
+    "residentNumber": 3684,
+    "companyName": "Î.I. \"SUMAN ION\"",
+    "legalHeadquarters": "CHIȘINĂU BUIUCANI, mun. Chișinău, Alba-Iulia, 21, 1, MD-2051",
+    "requestedRegistrationPeriod": "2031-04-09",
+    "eligibleActivities": [
+      "62.01"
+    ],
+    "administrator": "ION SUMAN",
+    "joinDate": "2026-04-29",
+    "phone": "+373 60116261",
+    "email": "ionsuman@icloud.com",
+    "isResident": "Active",
+    "_id": "1022600037601",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1022600037601"
+  },
+  {
+    "residentNumber": 3685,
+    "companyName": "\"CARZEN OPERATIONS\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU RÎȘCANI, mun. Chișinău, Calea Moșilor, 38, MD-2059",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "82.20"
+    ],
+    "administrator": "PAUL BADEA",
+    "joinDate": "2026-04-29",
+    "phone": "+40 722384008",
+    "email": "paul@badsi.ro",
+    "isResident": "Active",
+    "_id": "1026600015887",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600015887"
+  },
+  {
+    "residentNumber": 3686,
+    "companyName": "\"ARMADA TECH\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU CENTRU, mun. Chișinău, Valea Trandafirilor, 18, 110, MD-2001",
+    "requestedRegistrationPeriod": "2036-04-20",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "62.03",
+      "62.09",
+      "63.11",
+      "63.12"
+    ],
+    "administrator": "ALBERT EFIMOV",
+    "joinDate": "2026-04-29",
+    "phone": "+373 79745776",
+    "email": "info@armadatech.md",
+    "isResident": "Active",
+    "_id": "1024600057216",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1024600057216"
+  },
+  {
+    "residentNumber": 3687,
+    "companyName": "\"STALE POINTER\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU RÎȘCANI, mun. Chișinău, Calea Orheiului, 111/4, 29, MD-2020",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "62.03",
+      "62.09",
+      "63.11",
+      "58.29"
+    ],
+    "administrator": "YEVHEN DRUCHEK",
+    "joinDate": "2026-04-29",
+    "phone": "+373 061133422",
+    "email": "yevhen.druchek@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600015599",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600015599"
+  },
+  {
+    "residentNumber": 3688,
+    "companyName": "\"GOLBAN GREG\" S.R.L.",
+    "legalHeadquarters": "ORHEI, or. Orhei, Nicolae Milescu-Spătarul, 7, <, MD-3501",
+    "requestedRegistrationPeriod": "2031-04-21",
+    "eligibleActivities": [
+      "82.20.",
+      "82.20"
+    ],
+    "administrator": "GRIGORE GOLBAN",
+    "joinDate": "2026-04-29",
+    "phone": "+373 78853899",
+    "email": "golbangrigore940@gmail.com",
+    "isResident": "Active",
+    "_id": "1022600019500",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1022600019500"
+  },
+  {
+    "residentNumber": 3689,
+    "companyName": "\"AVER GROUP\" S.R.L.",
+    "legalHeadquarters": "mun. Chișinău, or. Codru, Schinoasa-Deal str-la 2, 57, MD-2019",
+    "requestedRegistrationPeriod": "2030-04-02",
+    "eligibleActivities": [
+      "63.11",
+      "62.01",
+      "62.02",
+      "63.12"
+    ],
+    "administrator": "ANDREI CIOBANU",
+    "joinDate": "2026-04-29",
+    "phone": "+373 78992999",
+    "email": "mrciobanuandrei@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600004465",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600004465"
+  },
+  {
+    "residentNumber": 3690,
+    "companyName": "\"NEXWAY SYSTEMS\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU CIOCANA, mun. Chișinău, Mihail Sadoveanu, 15/4, 28, MD-2044",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "82.20"
+    ],
+    "administrator": "MARIN RAȚA",
+    "joinDate": "2026-04-29",
+    "phone": "+373 62000141",
+    "email": "nexwaysystems@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600012761",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600012761"
+  },
+  {
+    "residentNumber": 3691,
+    "companyName": "\"ZEROFRICTION\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU CENTRU, mun. Chișinău, Alexei Mateevici, 51, 6, MD-2009",
+    "requestedRegistrationPeriod": "2030-04-09",
+    "eligibleActivities": [
+      "63.11",
+      "63.12",
+      "62.02"
+    ],
+    "administrator": "VICTOR MÎNDRA",
+    "joinDate": "2026-04-29",
+    "phone": "+373 69751515",
+    "email": "vmyndra@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600017434",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600017434"
+  },
+  {
+    "residentNumber": 3692,
+    "companyName": "\"ARCANIS\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU BUIUCANI, mun. Chișinău, Alba-Iulia, 21, of.1, MD-2051",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "63.11",
+      "58.29"
+    ],
+    "administrator": "CONSTANTIN GOLAN",
+    "joinDate": "2026-04-29",
+    "phone": "+373 67669699",
+    "email": "cgolan91@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600016909",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600016909"
+  },
+  {
+    "residentNumber": 3693,
+    "companyName": "Î.I. TOMA ALEXANDRU",
+    "legalHeadquarters": "CHIŞINĂU, BUIUCANI CHIŞINĂU, str. CONSTANTIN STERE, 20, 39, MD-2009",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "62.03",
+      "62.09",
+      "63.11",
+      "63.12",
+      "58.29"
+    ],
+    "administrator": "ALEXANDRU TOMA",
+    "joinDate": "2026-04-29",
+    "phone": "+373 69836751",
+    "email": "alextoma1994@gmail.com",
+    "isResident": "Active",
+    "_id": "1026023021070",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026023021070"
+  },
+  {
+    "residentNumber": 3694,
+    "companyName": "\"CODE DESIGN STUDIO\" S.R.L.",
+    "legalHeadquarters": "mun. Chișinău, or. Stăuceni, s.Goianul Nou, Gloriei, 11/A, MD-4823",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.02",
+      "62.01",
+      "62.03",
+      "62.09",
+      "63.11"
+    ],
+    "administrator": "VASILE CANTARJI",
+    "joinDate": "2026-04-29",
+    "phone": "+373 69345550",
+    "email": "vasile.cantarji@gmail.com",
+    "isResident": "Active",
+    "_id": "1026606001134",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026606001134"
+  },
+  {
+    "residentNumber": 3695,
+    "companyName": "\"YATORO\" S.R.L.",
+    "legalHeadquarters": "mun. Chișinău, s. Tohatin, Ștefan cel Mare și Sfânt, 19A, <, MD-2092",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.03",
+      "63.11"
+    ],
+    "administrator": "VLADIMIR ANDRIEȘ",
+    "joinDate": "2026-04-29",
+    "phone": "+373 76542183",
+    "email": "prometeyscreener@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600001095",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600001095"
+  },
+  {
+    "residentNumber": 3696,
+    "companyName": "\"DIGITAL TRINITY\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU RÎȘCANI, mun. Chișinău, Bogdan Petriceicu Hașdeu, 20, 149, MD-2005",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "62.03",
+      "62.09",
+      "63.11",
+      "63.12",
+      "58.29"
+    ],
+    "administrator": "TATIANA ROMANCIUC",
+    "joinDate": "2026-04-29",
+    "phone": "+373 60627770",
+    "email": "romanciuc.tatiana.90@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600011904",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600011904"
+  },
+  {
+    "residentNumber": 3697,
+    "companyName": "\"ZABOLOTNÎI PAVEL\" Î.I.",
+    "legalHeadquarters": "CHIȘINĂU BUIUCANI, mun. Chișinău, Calea Ieșilor, 16/2, 53, MD-2069",
+    "requestedRegistrationPeriod": "2030-04-09",
+    "eligibleActivities": [
+      "58.29",
+      "62.01",
+      "62.02",
+      "63.11",
+      "63.12"
+    ],
+    "administrator": "PAVEL ZABOLOTNÎI",
+    "joinDate": "2026-04-29",
+    "phone": "+373 61192855",
+    "email": "zabolotniy.pavel@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600005026",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600005026"
+  },
+  {
+    "residentNumber": 3698,
+    "companyName": "\"AC CLOUD SOLUTIONS\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU CIOCANA, mun. Chișinău, Ginta Latină, 12/4, 9, MD-2044",
+    "requestedRegistrationPeriod": "2031-04-16",
+    "eligibleActivities": [
+      "62.01",
+      "62.02"
+    ],
+    "administrator": "ALEXANDRU CRANGA",
+    "joinDate": "2026-04-30",
+    "phone": "+373 69976140",
+    "email": "alexander.kranga@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600014259",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600014259"
+  },
+  {
+    "residentNumber": 3699,
+    "companyName": "\"CRONOCODE SOLUTIONS\" S.R.L.",
+    "legalHeadquarters": "mun. Chișinău, s. Ciorescu, Libertății, 17, MD-2089",
+    "requestedRegistrationPeriod": "2030-04-20",
+    "eligibleActivities": [
+      "62.01",
+      "62.02"
+    ],
+    "administrator": "MAXIM PROCOPENCO",
+    "joinDate": "2026-04-30",
+    "phone": "+373 68698767",
+    "email": "maxim.procopenco@cronocode.com",
+    "isResident": "Active",
+    "_id": "1022600007103",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1022600007103"
+  },
+  {
+    "residentNumber": 3700,
+    "companyName": "\"VELTRIX LABS\" S.R.L.",
+    "legalHeadquarters": "EDINEȚ, mun. Edineț, Mihail Kogălniceanu, 13, MD-4601",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "63.11",
+      "62.01",
+      "62.02",
+      "82.20."
+    ],
+    "administrator": "PETRU GROZA",
+    "joinDate": "2026-04-30",
+    "phone": "+373 68725283",
+    "email": "grozza.ltd@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600017308",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600017308"
   }
 ]
