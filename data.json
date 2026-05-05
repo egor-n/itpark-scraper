@@ -84005,5 +84005,28 @@
       "ipCompany"
     ],
     "id": "1026023024934"
+  },
+  {
+    "residentNumber": 3706,
+    "companyName": "BRAND CONSULT S.R.L.",
+    "legalHeadquarters": "CHIŞINĂU, CIOCANA CHIŞINĂU, bd. MIRCEA CEL BĂTRÂN, 15A, 141, MD-2044",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "62.09",
+      "63.11",
+      "63.12"
+    ],
+    "administrator": "ALINA KOVALCHUK",
+    "joinDate": "2026-05-05",
+    "phone": "+373 68610939",
+    "email": "alina@thebrandedclub.com",
+    "isResident": "Active",
+    "_id": "1026023027692",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026023027692"
   }
 ]
