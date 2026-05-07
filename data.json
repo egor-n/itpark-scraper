@@ -84028,5 +84028,47 @@
       "ipCompany"
     ],
     "id": "1026023027692"
+  },
+  {
+    "residentNumber": 3705,
+    "companyName": "\"CIB-SOFT\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU CENTRU, mun. Chișinău, Mitropolit Gavriil Bănulescu-Bodoni, 6, MD-2012",
+    "requestedRegistrationPeriod": "2031-03-22",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "62.03",
+      "62.09",
+      "63.11"
+    ],
+    "administrator": "ANDREI CIOBANU",
+    "joinDate": "2026-05-05",
+    "phone": "+373 68388889",
+    "email": "ciobanu888@mail.ru",
+    "isResident": "Active",
+    "_id": "1026600009839",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600009839"
+  },
+  {
+    "residentNumber": 3710,
+    "companyName": "\"NETDREAM SOLUTION\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU RÎȘCANI, mun. Chișinău, Alexandru cel Bun, 49/2, 5, MD-2012",
+    "requestedRegistrationPeriod": "2030-04-23",
+    "eligibleActivities": [
+      "82.20"
+    ],
+    "administrator": "IACOPOMICHELE CASSIANO",
+    "joinDate": "2026-05-07",
+    "phone": "+373 78999878",
+    "email": "iacopo.cassiano@ultrafog.com",
+    "isResident": "Active",
+    "_id": "1024600032747",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1024600032747"
   }
 ]
