@@ -84212,5 +84212,24 @@
       "ipCompany"
     ],
     "id": "1026600013148"
+  },
+  {
+    "residentNumber": 3715,
+    "companyName": "\"MINTUSH CONSULTING\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU CENTRU, mun. Chișinău, Pavel Boțu, 9, 13, MD-2009",
+    "requestedRegistrationPeriod": "2030-04-23",
+    "eligibleActivities": [
+      "62.02"
+    ],
+    "administrator": "OLEG MINTUȘ",
+    "joinDate": "2026-05-12",
+    "phone": "+373 78556984",
+    "email": "o.mintush@gmail.com",
+    "isResident": "Active",
+    "_id": "1023600042682",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1023600042682"
   }
 ]
