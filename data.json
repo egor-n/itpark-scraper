@@ -84231,5 +84231,108 @@
       "ipCompany"
     ],
     "id": "1023600042682"
+  },
+  {
+    "residentNumber": 3716,
+    "companyName": "\"WASFI TEACH\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU CENTRU, mun. Chișinău, Nicolae Testemițanu, 3/10, 151, MD-2025",
+    "requestedRegistrationPeriod": "2030-05-10",
+    "eligibleActivities": [
+      "62.02",
+      "63.11",
+      "62.01",
+      "63.12"
+    ],
+    "administrator": "ALAA ABATHER HUSSEIN WASFI",
+    "joinDate": "2026-05-14",
+    "phone": "+373 76703622",
+    "email": "contact@wasfi.tech",
+    "isResident": "Active",
+    "_id": "1026600008359",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600008359"
+  },
+  {
+    "residentNumber": 3717,
+    "companyName": "Î.I. LARISA BUCEAȚCAIA",
+    "legalHeadquarters": "TIRASPOL, TIRASPOL, str-la MELINICINÎI, 10/<, <, MD-3300",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "74.10",
+      "59.12.14",
+      "59.12.15"
+    ],
+    "administrator": "LARISA BUCEAȚCAIA",
+    "joinDate": "2026-05-14",
+    "phone": "+373 60077533",
+    "email": "lori.bucha@gmail.com",
+    "isResident": "Active",
+    "_id": "1026023025997",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026023025997"
+  },
+  {
+    "residentNumber": 3718,
+    "companyName": "\"BIG SKY ONE\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU BUIUCANI, mun. Chișinău, Ion Creangă, 84/3, 5, MD-2051",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "82.20"
+    ],
+    "administrator": "VICTOR MÎȚU",
+    "joinDate": "2026-05-14",
+    "phone": "+373 67509555",
+    "email": "victor.mitu@routeonedispatch.com",
+    "isResident": "Active",
+    "_id": "1026607000628",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026607000628"
+  },
+  {
+    "residentNumber": 3719,
+    "companyName": "VALLOGISTICS CORP S.R.L.",
+    "legalHeadquarters": "CHIŞINĂU, BUIUCANI CHIŞINĂU, str. LIVIU DELEANU, 5/3, 21, MD-2071",
+    "requestedRegistrationPeriod": "2030-04-28",
+    "eligibleActivities": [
+      "82.20",
+      "82.20."
+    ],
+    "administrator": "VALERIAN ŢURCAN",
+    "joinDate": "2026-05-14",
+    "phone": "+373 79100908",
+    "email": "turcan.valerian@gmail.com",
+    "isResident": "Active",
+    "_id": "1026023028884",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026023028884"
+  },
+  {
+    "residentNumber": 3720,
+    "companyName": "S.R.L. \"CHERISHED\"",
+    "legalHeadquarters": "NISPORENI, or. Nisporeni, Petru Movilă, 8, <, MD-6401",
+    "requestedRegistrationPeriod": "2030-04-22",
+    "eligibleActivities": [
+      "58.29",
+      "62.01",
+      "62.02"
+    ],
+    "administrator": "DINA CERÎ",
+    "joinDate": "2026-05-14",
+    "phone": "+373 68689717",
+    "email": "dina.ceri@gmail.com",
+    "isResident": "Active",
+    "_id": "1020609004547",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1020609004547"
   }
 ]
