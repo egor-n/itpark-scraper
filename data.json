@@ -84031,8 +84031,8 @@
   },
   {
     "residentNumber": 3705,
-    "companyName": "\"CIB-SOFT\" S.R.L.",
-    "legalHeadquarters": "CHIȘINĂU CENTRU, mun. Chișinău, Mitropolit Gavriil Bănulescu-Bodoni, 6, MD-2012",
+    "companyName": "CIB-SOFT S.R.L.",
+    "legalHeadquarters": "CHIŞINĂU, BUIUCANI CHIŞINĂU, str. MITROPOLIT GAVRIIL BĂNULESCU-BODONI, 6, MD-2012",
     "requestedRegistrationPeriod": "2031-03-22",
     "eligibleActivities": [
       "62.01",
@@ -84041,7 +84041,7 @@
       "62.09",
       "63.11"
     ],
-    "administrator": "ANDREI CIOBANU",
+    "administrator": "VICTORIA CIOBANU",
     "joinDate": "2026-05-05",
     "phone": "+373 68388889",
     "email": "ciobanu888@mail.ru",
@@ -84334,5 +84334,48 @@
       "ipCompany"
     ],
     "id": "1020609004547"
+  },
+  {
+    "residentNumber": 3722,
+    "companyName": "CÎRLAN VALERIU Î.I.",
+    "legalHeadquarters": "CHIŞINĂU, BUIUCANI CHIŞINĂU, str. NICOLAE COSTIN, 58/<, 53, MD-2051",
+    "requestedRegistrationPeriod": "2035-04-26",
+    "eligibleActivities": [
+      "62.02",
+      "62.01",
+      "62.03",
+      "62.09"
+    ],
+    "administrator": "VALERIU CÎRLAN",
+    "joinDate": "2026-05-19",
+    "phone": "+373 69520893",
+    "email": "valeraky@hotmail.com",
+    "isResident": "Active",
+    "_id": "1026023028943",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026023028943"
+  },
+  {
+    "residentNumber": 3723,
+    "companyName": "Î.I. ALEXANDRU CAPAȚÎNA",
+    "legalHeadquarters": "CHIŞINĂU, CENTRU CHIŞINĂU, şos. HÂNCEŞTI, 57/A, 95, MD-2028",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "62.09"
+    ],
+    "administrator": "ALEXANDRU CAPAȚÎNA",
+    "joinDate": "2026-05-19",
+    "phone": "+373 69887316",
+    "email": "alexandru.capatina@pm.me",
+    "isResident": "Active",
+    "_id": "1026023033019",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026023033019"
   }
 ]
