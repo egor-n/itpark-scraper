@@ -84377,5 +84377,49 @@
       "ipCompany"
     ],
     "id": "1026023033019"
+  },
+  {
+    "residentNumber": 3721,
+    "companyName": "\"ITBOX\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU RÎȘCANI, mun. Chișinău, Florilor, 12/A, 29, MD-2068",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "62.03",
+      "62.09",
+      "63.12",
+      "58.29"
+    ],
+    "administrator": "VICTOR VASCAUȚAN",
+    "joinDate": "2026-05-19",
+    "phone": "+373 67502020",
+    "email": "info@itbox.md",
+    "isResident": "Active",
+    "_id": "1020600028441",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1020600028441"
+  },
+  {
+    "residentNumber": 3724,
+    "companyName": "\"GHERBENSCHI IGOR\" Î.I.",
+    "legalHeadquarters": "UNGHENI, mun. Ungheni, Alexandru cel Bun, 32, 28, MD-3601",
+    "requestedRegistrationPeriod": "2030-04-06",
+    "eligibleActivities": [
+      "58.21",
+      "62.01"
+    ],
+    "administrator": "IGOR GHERBENSCHI",
+    "joinDate": "2026-05-19",
+    "phone": "+373 60634447",
+    "email": "gerbenschi@gmail.com",
+    "isResident": "Active",
+    "_id": "1025609006225",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1025609006225"
   }
 ]
