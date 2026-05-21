@@ -84421,5 +84421,49 @@
       "ipCompany"
     ],
     "id": "1025609006225"
+  },
+  {
+    "residentNumber": 3725,
+    "companyName": "\"MICRO APP SOLUTIONS\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU CENTRU, mun. Chișinău, Mitropolit Varlaam, 65, 239, MD-2001",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "62.03",
+      "62.09",
+      "63.11",
+      "58.29",
+      "63.12"
+    ],
+    "administrator": "VLADIMIR CRIMNEAC",
+    "joinDate": "2026-05-21",
+    "phone": "+373 79464916",
+    "email": "office@mastech.md",
+    "isResident": "Active",
+    "_id": "1022600051704",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1022600051704"
+  },
+  {
+    "residentNumber": 3726,
+    "companyName": "NORTH STAR LOGISTICS S.R.L.",
+    "legalHeadquarters": "CHIŞINĂU, BUIUCANI CHIŞINĂU, str. ONISIFOR GHIBU, 10, 221, MD-2071",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "82.20"
+    ],
+    "administrator": "LAURENŢIU MUNTEANU",
+    "joinDate": "2026-05-21",
+    "phone": "+373 68964881",
+    "email": "munteanu.laur2@gmail.com",
+    "isResident": "Active",
+    "_id": "1026023030971",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026023030971"
   }
 ]
