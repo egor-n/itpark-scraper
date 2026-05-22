@@ -84465,5 +84465,67 @@
       "ipCompany"
     ],
     "id": "1026023030971"
+  },
+  {
+    "residentNumber": 3727,
+    "companyName": "\"DPA TECH SOLUTIONS\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU BOTANICA, mun. Chișinău, Decebal bd., 6, et.4, MD-2002",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02"
+    ],
+    "administrator": "DMYTRO POKHODENKO",
+    "joinDate": "2026-05-21",
+    "phone": "+373 79405095",
+    "email": "pohod.d@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600014994",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600014994"
+  },
+  {
+    "residentNumber": 3728,
+    "companyName": "S.R.L. \"LINE EXPRESS TRUCKS\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU BUIUCANI, mun. Chișinău, Balcani șos., 2/2, 101, MD-2071",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "82.20"
+    ],
+    "administrator": "PAVEL CINCILEI",
+    "joinDate": "2026-05-21",
+    "phone": "+373 69663456",
+    "email": "pavelcincilei@gmail.com",
+    "isResident": "Active",
+    "_id": "1026606001743",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026606001743"
+  },
+  {
+    "residentNumber": 3729,
+    "companyName": "S.R.L. \"DOIS DIGITAL\"",
+    "legalHeadquarters": "Uta Găgăuzia, s. Chirsova, Tanasoglo, 54, MD-3813",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "74.10",
+      "62.02",
+      "59.12.15",
+      "59.12.14"
+    ],
+    "administrator": "SERGHEI DRAGAN",
+    "joinDate": "2026-05-21",
+    "phone": "+373 79058284",
+    "email": "doisagency@gmail.com",
+    "isResident": "Active",
+    "_id": "1022611002276",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1022611002276"
   }
 ]
