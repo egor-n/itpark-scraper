@@ -84527,5 +84527,25 @@
       "ipCompany"
     ],
     "id": "1022611002276"
+  },
+  {
+    "residentNumber": 3732,
+    "companyName": "\"SERENICHRON\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU BUIUCANI, mun. Chișinău, Calea Ieșilor, 67, 9, MD-2069",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02"
+    ],
+    "administrator": "VLAD TUDORIE",
+    "joinDate": "2026-05-26",
+    "phone": "+40 771665474",
+    "email": "vlad@serenichron.com",
+    "isResident": "Active",
+    "_id": "1025600047658",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1025600047658"
   }
 ]
