@@ -84547,5 +84547,226 @@
       "ipCompany"
     ],
     "id": "1025600047658"
+  },
+  {
+    "residentNumber": 3730,
+    "companyName": "V-IT Logistics S.R.L.",
+    "legalHeadquarters": "CHIŞINĂU, BOTANICA CHIŞINĂU, bd. DACIA, 22/2, 110, MD-2043",
+    "requestedRegistrationPeriod": "2030-05-20",
+    "eligibleActivities": [
+      "82.20"
+    ],
+    "administrator": "ION VOSCOV",
+    "joinDate": "2026-05-26",
+    "phone": "+373 60252990",
+    "email": "projecthub95@proton.me",
+    "isResident": "Active",
+    "_id": "1026023035574",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026023035574"
+  },
+  {
+    "residentNumber": 3731,
+    "companyName": "ARFELICE S.R.L.",
+    "legalHeadquarters": "CHIŞINĂU, RÎŞCANI CHIŞINĂU, str. ALBIŞOARA, 84/3, 27, MD-2005",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "74.10"
+    ],
+    "administrator": "MAXIM AFANASIEV",
+    "joinDate": "2026-05-26",
+    "phone": "+373 79376363",
+    "email": "maksim.afanasiev@gmail.com",
+    "isResident": "Active",
+    "_id": "1026023028264",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026023028264"
+  },
+  {
+    "residentNumber": 3733,
+    "companyName": "BRAVI MC GROUP S.R.L.",
+    "legalHeadquarters": "CHIŞINĂU, BUIUCANI CHIŞINĂU, str. EUGEN COCA, 19, 99, MD-2008",
+    "requestedRegistrationPeriod": "2030-05-13",
+    "eligibleActivities": [
+      "82.20"
+    ],
+    "administrator": "ALEXANDRU MÎNDRU",
+    "joinDate": "2026-05-26",
+    "phone": "+373 69362668",
+    "email": "amindru577@gmail.com",
+    "isResident": "Active",
+    "_id": "1026023033020",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026023033020"
+  },
+  {
+    "residentNumber": 3734,
+    "companyName": "GLOBAL SUPPORT SYSTEMS S.R.L.",
+    "legalHeadquarters": "CHIŞINĂU, BOTANICA CHIŞINĂU, str. VALEA CRUCII, 6, 182, MD-2062",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "82.20"
+    ],
+    "administrator": "GHEORGHII MIRON",
+    "joinDate": "2026-05-26",
+    "phone": "+373 60684374",
+    "email": "globalsupportsystems@gmail.com",
+    "isResident": "Active",
+    "_id": "1026023028404",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026023028404"
+  },
+  {
+    "residentNumber": 3735,
+    "companyName": "\"BPTECH\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU RÎȘCANI, mun. Chișinău, Moscova bd., 16, 123, MD-2068",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "62.09",
+      "63.11"
+    ],
+    "administrator": "DAN BĂLEANU",
+    "joinDate": "2026-05-26",
+    "phone": "+373 69107055",
+    "email": "dan.baleanu@gmail.com",
+    "isResident": "Active",
+    "_id": "1016600022428",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1016600022428"
+  },
+  {
+    "residentNumber": 3736,
+    "companyName": "GLV COACHING S.R.L.",
+    "legalHeadquarters": "CHIŞINĂU, BUIUCANI CHIŞINĂU, şos. BALCANI, 8/1, 9, MD-2071",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "58.29",
+      "62.09",
+      "63.11",
+      "63.12",
+      "85.59"
+    ],
+    "administrator": "GRIGORE LIPCANU",
+    "joinDate": "2026-05-26",
+    "phone": "+373 60711207",
+    "email": "grigore.del@gmail.com",
+    "isResident": "Active",
+    "_id": "1017600022997",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1017600022997"
+  },
+  {
+    "residentNumber": 3737,
+    "companyName": "HIGH SOLUTIONS TECH S.R.L.",
+    "legalHeadquarters": "CHIŞINĂU, RÎŞCANI CHIŞINĂU, str. SOCOLENI, 9, 77, MD-2020",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "82.20"
+    ],
+    "administrator": "VLADIMIR OCHIŞOR",
+    "joinDate": "2026-05-26",
+    "phone": "+373 60992241",
+    "email": "ochisorvladimir@yahoo.com",
+    "isResident": "Active",
+    "_id": "1026023029364",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026023029364"
+  },
+  {
+    "residentNumber": 3738,
+    "companyName": "BYTERA S.R.L.",
+    "legalHeadquarters": "CHIŞINĂU, RÎŞCANI CHIŞINĂU, str. BOGDAN-VOIEVOD, 1B, 39, MD-2068",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01"
+    ],
+    "administrator": "VLADISLAV BANTUȘ",
+    "joinDate": "2026-05-26",
+    "phone": "+373 69889145",
+    "email": "vladbantus02@gmail.com",
+    "isResident": "Active",
+    "_id": "1026023035976",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026023035976"
+  },
+  {
+    "residentNumber": 3739,
+    "companyName": "GM AMERICAN LOGISTICS S.R.L.",
+    "legalHeadquarters": "CHIŞINĂU, BOTANICA CHIŞINĂU, bd. DACIA, 49/2, 15, MD-2062",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "82.20"
+    ],
+    "administrator": "GRIGORE MARIȚ",
+    "joinDate": "2026-05-26",
+    "phone": "+373 60097951",
+    "email": "grigore.marit1@gmail.com",
+    "isResident": "Active",
+    "_id": "1026023035909",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026023035909"
+  },
+  {
+    "residentNumber": 3740,
+    "companyName": "\"LELEK-SOFT\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU RÎȘCANI, mun. Chișinău, Nadejda Russo, 14, 26A, MD-2068",
+    "requestedRegistrationPeriod": "2031-05-05",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "63.11"
+    ],
+    "administrator": "GLEB TOCARENCO",
+    "joinDate": "2026-05-26",
+    "phone": "+373 78879006",
+    "email": "gleb.tocarenco@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600006207",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600006207"
+  },
+  {
+    "residentNumber": 3741,
+    "companyName": "\"B-PRIME LOGISTICS\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU CENTRU, mun. Chișinău, Arheolog Ion Casian Suruceanu, 1/B, 10, MD-2025",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "82.20"
+    ],
+    "administrator": "ILIE BEREGOI",
+    "joinDate": "2026-05-26",
+    "phone": "+373 68566866",
+    "email": "ilieberegoi01@gmail.com",
+    "isResident": "Active",
+    "_id": "1023600010009",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1023600010009"
   }
 ]
