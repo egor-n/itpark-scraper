@@ -84768,5 +84768,66 @@
       "ipCompany"
     ],
     "id": "1023600010009"
+  },
+  {
+    "residentNumber": 3742,
+    "companyName": "\"VIVARO SOFT\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU RÎȘCANI, mun. Chișinău, Alexandru cel Bun, 108/1, 24, MD-2005",
+    "requestedRegistrationPeriod": "2030-04-21",
+    "eligibleActivities": [
+      "62.02",
+      "82.20",
+      "82.20."
+    ],
+    "administrator": "IGOR VASILACHI",
+    "joinDate": "2026-05-28",
+    "phone": "+373 60958095",
+    "email": "igor.vasilachi@gmail.com",
+    "isResident": "Active",
+    "_id": "1026600017076",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026600017076"
+  },
+  {
+    "residentNumber": 3744,
+    "companyName": "\"Gara Tech\" S.R.L.",
+    "legalHeadquarters": "CHIŞINĂU, BUIUCANI CHIŞINĂU, str. ALBA-IULIA, 21/1, 1, MD-2051",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "58.21",
+      "58.29"
+    ],
+    "administrator": "VLADIMIR GARABAJII",
+    "joinDate": "2026-05-28",
+    "phone": "+373 76746767",
+    "email": "vladimirgarabajii@gara-tech.com",
+    "isResident": "Active",
+    "_id": "1026023033824",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026023033824"
+  },
+  {
+    "residentNumber": 3745,
+    "companyName": "\"DXS Express\" S.R.L.",
+    "legalHeadquarters": "CĂLĂRAŞI, SIPOTENI, MD-4438",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "82.20"
+    ],
+    "administrator": "VLADISLAV PRUNEANU",
+    "joinDate": "2026-05-28",
+    "phone": "+373 76030014",
+    "email": "vladpruneanu@gmail.com",
+    "isResident": "Active",
+    "_id": "1026023038955",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026023038955"
   }
 ]
