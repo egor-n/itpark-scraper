@@ -84829,5 +84829,153 @@
       "ipCompany"
     ],
     "id": "1026023038955"
+  },
+  {
+    "residentNumber": 3743,
+    "companyName": "Qubit Nest S.R.L.",
+    "legalHeadquarters": "CHIŞINĂU, BĂCIOI, str. ION INCULEŢ, 6, 25, MD-6812",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "63.11"
+    ],
+    "administrator": "NICOLETA GHECREA",
+    "joinDate": "2026-05-28",
+    "phone": "+373 62191171",
+    "email": "nicoletasalcutan@gmail.com",
+    "isResident": "Active",
+    "_id": "1026023037590",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026023037590"
+  },
+  {
+    "residentNumber": 3746,
+    "companyName": "MG Technologies S.R.L.",
+    "legalHeadquarters": "CRIULENI, MAŞCĂUŢI, MD-4830",
+    "requestedRegistrationPeriod": "2036-05-07",
+    "eligibleActivities": [
+      "62.01"
+    ],
+    "administrator": "GHEORGHE MIRCA",
+    "joinDate": "2026-05-28",
+    "phone": "+373 68035704",
+    "email": "mircagheorghetechnologies@gmail.com",
+    "isResident": "Active",
+    "_id": "1026023030889",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026023030889"
+  },
+  {
+    "residentNumber": 3747,
+    "companyName": "ALB IT SOLUTIONS S.R.L.",
+    "legalHeadquarters": "CHIŞINĂU, CENTRU CHIŞINĂU, str. ION INCULEŢ, 71, 2, MD-2021",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "82.20"
+    ],
+    "administrator": "BOGDAN LUNGU",
+    "joinDate": "2026-05-29",
+    "phone": "+373 69967899",
+    "email": "b.lungu@kult-service.de",
+    "isResident": "Active",
+    "_id": "1026023032137",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026023032137"
+  },
+  {
+    "residentNumber": 3748,
+    "companyName": "''MV VECTRIX'' S.R.L.",
+    "legalHeadquarters": "CHIŞINĂU, RÎŞCANI CHIŞINĂU, str. MATEI BASARAB, 9/1, 81, MD-2045",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "58.29",
+      "62.01",
+      "62.02",
+      "62.03",
+      "63.11",
+      "63.12"
+    ],
+    "administrator": "MAXIM VASILIEV",
+    "joinDate": "2026-05-29",
+    "phone": "+373 68829645",
+    "email": "maksim311289@mail.ru",
+    "isResident": "Active",
+    "_id": "1026023028275",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026023028275"
+  },
+  {
+    "residentNumber": 3750,
+    "companyName": "Ceban Systems Engineering SRL S.R.L.",
+    "legalHeadquarters": "CHIŞINĂU, RÎŞCANI CHIŞINĂU, str. CEUCARI, 5/8, MD-2020",
+    "requestedRegistrationPeriod": "2030-05-17",
+    "eligibleActivities": [
+      "62.02",
+      "62.01",
+      "63.11",
+      "62.09"
+    ],
+    "administrator": "SERGHEI CEBAN",
+    "joinDate": "2026-05-29",
+    "phone": "+373 69149244",
+    "email": "ceban_serghei@yahoo.com",
+    "isResident": "Active",
+    "_id": "1026023031831",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026023031831"
+  },
+  {
+    "residentNumber": 3751,
+    "companyName": "\"SAFE STEP CAPITAL\" S.R.L.",
+    "legalHeadquarters": "CHIȘINĂU CENTRU, mun. Chișinău, București, 23 A, MD-2002",
+    "requestedRegistrationPeriod": "2035-05-22",
+    "eligibleActivities": [
+      "58.29",
+      "62.01",
+      "62.02",
+      "63.11",
+      "62.09",
+      "62.03"
+    ],
+    "administrator": "CĂTĂLIN BĂȚ",
+    "joinDate": "2026-05-29",
+    "phone": "+373 68029777",
+    "email": "office@ssc.md",
+    "isResident": "Active",
+    "_id": "1025600054393",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1025600054393"
+  },
+  {
+    "residentNumber": 3752,
+    "companyName": "RIA TECH S.R.L.",
+    "legalHeadquarters": "CHIŞINĂU, BOTANICA CHIŞINĂU, bd. DECEBAL, 72/4, 29, MD-2015",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "85.59"
+    ],
+    "administrator": "SVETLANA SCROB",
+    "joinDate": "2026-05-29",
+    "phone": "+373 79910248",
+    "email": "chisinau.renderia.b@gmail.com",
+    "isResident": "Active",
+    "_id": "1026023034740",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026023034740"
   }
 ]
