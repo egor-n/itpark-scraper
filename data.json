@@ -84977,5 +84977,44 @@
       "ipCompany"
     ],
     "id": "1026023034740"
+  },
+  {
+    "residentNumber": 3749,
+    "companyName": "NOBLE SKY S.R.L.",
+    "legalHeadquarters": "CHIŞINĂU, BUIUCANI CHIŞINĂU, str. MESAGER, 24, MD-2069",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "82.20"
+    ],
+    "administrator": "VICTOR TIPA",
+    "joinDate": "2026-05-29",
+    "phone": "+373 60825925",
+    "email": "alatimbalari@mail.ru",
+    "isResident": "Active",
+    "_id": "1026023037361",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026023037361"
+  },
+  {
+    "residentNumber": 3753,
+    "companyName": "\"HUDKOV OLEKSII\" Î.I.",
+    "legalHeadquarters": "CHIȘINĂU BOTANICA, mun. Chișinău, Grenoble, 167/1, 116, MD-2011",
+    "requestedRegistrationPeriod": "2030-05-22",
+    "eligibleActivities": [
+      "62.01",
+      "58.21"
+    ],
+    "administrator": "OLEKSII HUDKOV",
+    "joinDate": "2026-05-29",
+    "phone": "+373 79836550",
+    "email": "fleksovich@gmail.com",
+    "isResident": "Active",
+    "_id": "1025600025331",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1025600025331"
   }
 ]
