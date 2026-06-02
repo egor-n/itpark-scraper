@@ -85016,5 +85016,29 @@
       "ipCompany"
     ],
     "id": "1025600025331"
+  },
+  {
+    "residentNumber": 3755,
+    "companyName": "SENTRIX ASISTENT SOFT S.R.L.",
+    "legalHeadquarters": "CHIŞINĂU, BUIUCANI CHIŞINĂU, str. ALBA-IULIA, 21/1, MD-2051",
+    "requestedRegistrationPeriod": "2037-12-31",
+    "eligibleActivities": [
+      "62.01",
+      "62.02",
+      "63.12",
+      "63.11",
+      "62.09",
+      "58.29"
+    ],
+    "administrator": "EUGENIU ARBULEAC",
+    "joinDate": "2026-06-02",
+    "phone": "+373 68374337",
+    "email": "office@sentrix.md",
+    "isResident": "Active",
+    "_id": "1026023030409",
+    "_entity": [
+      "ipCompany"
+    ],
+    "id": "1026023030409"
   }
 ]
